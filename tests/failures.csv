@@ -1,0 +1,10022 @@
+,example_input,example_output,all-generated-output
+0,"# code
+i = 126 + 41
+o = 951
+u = 90
+h = 901
+o = 899
+while h > o:
+	o = o + 1
+print(i)
+#STEP
+","# code
+ @ i = 1 2 6 + 4 1 $ | 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ while h > o : 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ @ o = 9 5 1 $ i ? 1 6 7 | 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ while h > o : 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ @ u = 9 0 $ i ? 1 6 7 ; o ? 9 5 1 | 
+ h = 9 0 1 
+ o = 8 9 9 
+ while h > o : 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ @ h = 9 0 1 $ i ? 1 6 7 ; o ? 9 5 1 ; u ? 9 0 | 
+ o = 8 9 9 
+ while h > o : 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ @ o = 8 9 9 $ i ? 1 6 7 ; o ? 9 5 1 ; u ? 9 0 ; h ? 9 0 1 | 
+ while h > o : 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ @ while h > o : $ i ? 1 6 7 ; o ? 8 9 9 ; u ? 9 0 ; h ? 9 0 1 | 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ while h > o : 
+ @ 	 o = o + 1 $ i ? 1 6 7 ; o ? 8 9 9 ; u ? 9 0 ; h ? 9 0 1 | 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ @ while h > o : $ i ? 1 6 7 ; o ? 9 0 0 ; u ? 9 0 ; h ? 9 0 1 | 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ while h > o : 
+ @ 	 o = o + 1 $ i ? 1 6 7 ; o ? 9 0 0 ; u ? 9 0 ; h ? 9 0 1 | 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ @ while h > o : $ i ? 1 6 7 ; o ? 9 0 1 ; u ? 9 0 ; h ? 9 0 1 | 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ while h > o : 
+ 	 o = o + 1 
+ @ print( i ) $ i ? 1 6 7 ; o ? 9 0 1 ; u ? 9 0 ; h ? 9 0 1 | 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ while h > o : 
+ 	 o = o + 1 
+ print( i ) 
+ @ ^ $ i ? 1 6 7 ; o ? 9 0 1 ; u ? 9 0 ; h ? 9 0 1 | #  1 6 7","# code
+ @ i = 1 2 6 + 4 1 $ | 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ while h > o : 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ @ o = 9 5 1 $ i ? 1 6 7 | 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ while h > o : 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ @ u = 9 0 $ i ? 1 6 7 ; o ? 9 5 1 | 
+ h = 9 0 1 
+ o = 8 9 9 
+ while h > o : 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ @ h = 9 0 1 $ i ? 1 6 7 ; o ? 9 5 1 ; u ? 9 0 | 
+ o = 8 9 9 
+ while h > o : 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ @ o = 8 9 9 $ i ? 1 6 7 ; o ? 9 5 1 ; u ? 9 0 ; h ? 9 0 1 | 
+ while h > o : 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ @ while h > o : $ i ? 1 6 7 ; o ? 8 9 9 ; u ? 9 0 ; h ? 9 0 1 | 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ while h > o : 
+ @ 	 o = o + 1 $ i ? 1 6 7 ; o ? 8 9 9 ; u ? 9 0 ; h ? 9 0 1 | 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ @ while h > o : $ i ? 1 6 7 ; o ? 8 9 0 ; u ? 9 0 ; h ? 9 0 1 | 
+ 	 o = o + 1 
+ print( i ) 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ while h > o : 
+ 	 o = o + 1 
+ @ print( i ) $ i ? 1 6 7 ; o ? 8 9 0 ; u ? 9 0 ; h ? 9 0 1 | 
+#STEP
+ # code
+ i = 1 2 6 + 4 1 
+ o = 9 5 1 
+ u = 9 0 
+ h = 9 0 1 
+ o = 8 9 9 
+ while h > o : 
+ 	 o = o + 1 
+ print( i ) 
+ @ ^ $ i ? 1 6 7 ; o ? 8 9 0 ; u ? 9 0 ; h ? 9 0 1 | #  1 6 7@"
+1,"# code
+j = 104
+i = 111
+x = j
+while j < i:
+	o = 578
+	m = 780
+	o = i + x
+	o = j + 13
+	l = 197 + i
+	j = o
+print(x)
+#STEP
+","# code
+ @ j = 1 0 4 $ | 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ @ i = 1 1 1 $ j ? 1 0 4 | 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ @ x = j $ j ? 1 0 4 ; i ? 1 1 1 | 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ @ while j < i : $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 | 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ @ 	 o = 5 7 8 $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 | 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ @ 	 m = 7 8 0 $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 5 7 8 | 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ @ 	 o = i + x $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 5 7 8 ; m ? 7 8 0 | 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ @ 	 o = j + 1 3 $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 2 1 5 ; m ? 7 8 0 | 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ @ 	 l = 1 9 7 + i $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 1 1 7 ; m ? 7 8 0 | 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ @ 	 j = o $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 1 1 7 ; m ? 7 8 0 ; l ? 3 0 8 | 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ @ while j < i : $ j ? 1 1 7 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 1 1 7 ; m ? 7 8 0 ; l ? 3 0 8 | 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ @ print( x ) $ j ? 1 1 7 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 1 1 7 ; m ? 7 8 0 ; l ? 3 0 8 | 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+ @ ^ $ j ? 1 1 7 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 1 1 7 ; m ? 7 8 0 ; l ? 3 0 8 | #  1 0 4","# code
+ @ j = 1 0 4 $ | 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ @ i = 1 1 1 $ j ? 1 0 4 | 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ @ x = j $ j ? 1 0 4 ; i ? 1 1 1 | 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ @ while j < i : $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 | 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ @ 	 o = 5 7 8 $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 | 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ @ 	 m = 7 8 0 $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 5 7 8 | 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ @ 	 o = i + x $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 5 7 8 ; m ? 7 8 0 | 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ @ 	 o = j + 1 3 $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 1 1 5 ; m ? 7 8 0 | 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ @ 	 l = 1 9 7 + i $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 1 2 8 ; m ? 7 8 0 | 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ @ 	 j = o $ j ? 1 0 4 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 1 2 8 ; m ? 7 8 0 ; l ? 2 9 8 | 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ @ while j < i : $ j ? 1 2 8 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 1 2 8 ; m ? 7 8 0 ; l ? 2 9 8 | 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ @ print( x ) $ j ? 1 2 8 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 1 2 8 ; m ? 7 8 0 ; l ? 2 9 8 | 
+#STEP
+ # code
+ j = 1 0 4 
+ i = 1 1 1 
+ x = j 
+ while j < i : 
+ 	 o = 5 7 8 
+ 	 m = 7 8 0 
+ 	 o = i + x 
+ 	 o = j + 1 3 
+ 	 l = 1 9 7 + i 
+ 	 j = o 
+ print( x ) 
+ @ ^ $ j ? 1 2 8 ; i ? 1 1 1 ; x ? 1 0 4 ; o ? 1 2 8 ; m ? 7 8 0 ; l ? 2 9 8 | #  1 0 4@"
+2,"# code
+o = 125
+if 438 == 737:
+	o = 238 + o
+b = 193
+while b < 195:
+	z = 499 + 487
+	if b != z:
+		print(z)
+	v = b + 3
+	k = 231 + b
+	b = v
+#STEP
+","# code
+ @ o = 1 2 5 $ | 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ @ if 4 3 8 == 7 3 7 : $ o ? 1 2 5 | 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ @ b = 1 9 3 $ o ? 1 2 5 | 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ @ while b < 1 9 5 : $ o ? 1 2 5 ; b ? 1 9 3 | 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ @ 	 z = 4 9 9 + 4 8 7 $ o ? 1 2 5 ; b ? 1 9 3 | 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ @ 	 if b != z : $ o ? 1 2 5 ; b ? 1 9 3 ; z ? 9 8 6 | 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ @ 	 	 print( z ) $ o ? 1 2 5 ; b ? 1 9 3 ; z ? 9 8 6 | 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ @ 	 v = b + 3 $ o ? 1 2 5 ; b ? 1 9 3 ; z ? 9 8 6 | #  9 8 6 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ @ 	 k = 2 3 1 + b $ o ? 1 2 5 ; b ? 1 9 3 ; z ? 9 8 6 ; v ? 1 9 6 | #  9 8 6 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ @ 	 b = v $ o ? 1 2 5 ; b ? 1 9 3 ; z ? 9 8 6 ; v ? 1 9 6 ; k ? 4 2 4 | #  9 8 6 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ @ while b < 1 9 5 : $ o ? 1 2 5 ; b ? 1 9 6 ; z ? 9 8 6 ; v ? 1 9 6 ; k ? 4 2 4 | #  9 8 6 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+ @ ^ $ o ? 1 2 5 ; b ? 1 9 6 ; z ? 9 8 6 ; v ? 1 9 6 ; k ? 4 2 4 | #  9 8 6","# code
+ @ o = 1 2 5 $ | 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ @ if 4 3 8 == 7 3 7 : $ o ? 1 2 5 | 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ @ b = 1 9 3 $ o ? 1 2 5 | 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ @ while b < 1 9 5 : $ o ? 1 2 5 ; b ? 1 9 3 | 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ @ 	 z = 4 9 9 + 4 8 7 $ o ? 1 2 5 ; b ? 1 9 3 | 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ @ 	 if b != z : $ o ? 1 2 5 ; b ? 1 9 3 ; z ? 9 8 6 | 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ @ 	 	 print( z ) $ o ? 1 2 5 ; b ? 1 9 3 ; z ? 9 8 6 | 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ @ 	 v = b + 3 $ o ? 1 2 5 ; b ? 1 9 3 ; z ? 9 8 6 | #  9 8 6 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ @ while b < 1 9 5 : $ o ? 1 2 5 ; b ? 1 9 3 ; z ? 9 8 6 ; v ? 9 9 9 | #  9 8 6 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+#STEP
+ # code
+ o = 1 2 5 
+ if 4 3 8 == 7 3 7 : 
+ 	 o = 2 3 8 + o 
+ b = 1 9 3 
+ while b < 1 9 5 : 
+ 	 z = 4 9 9 + 4 8 7 
+ 	 if b != z : 
+ 	 	 print( z ) 
+ 	 v = b + 3 
+ 	 k = 2 3 1 + b 
+ 	 b = v 
+ @ ^ $ o ? 1 2 5 ; b ? 1 9 3 ; z ? 9 8 6 ; v ? 9 9 9 | #  9 8 6@"
+3,"# code
+q = 7
+i = 678
+o = 670
+while o < i:
+	y = o
+	k = 657
+	l = q
+	o = o + q
+print(l)
+#STEP
+","# code
+ @ q = 7 $ | 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ @ i = 6 7 8 $ q ? 7 | 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ @ o = 6 7 0 $ q ? 7 ; i ? 6 7 8 | 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ @ while o < i : $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 0 | 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ @ 	 y = o $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 0 | 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ @ 	 k = 6 5 7 $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 0 ; y ? 6 7 0 | 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ @ 	 l = q $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 0 ; y ? 6 7 0 ; k ? 6 5 7 | 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ @ 	 o = o + q $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 0 ; y ? 6 7 0 ; k ? 6 5 7 ; l ? 7 | 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ @ while o < i : $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 7 ; y ? 6 7 0 ; k ? 6 5 7 ; l ? 7 | 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ @ 	 y = o $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 7 ; y ? 6 7 0 ; k ? 6 5 7 ; l ? 7 | 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ @ 	 k = 6 5 7 $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 7 ; y ? 6 7 7 ; k ? 6 5 7 ; l ? 7 | 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ @ 	 l = q $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 7 ; y ? 6 7 7 ; k ? 6 5 7 ; l ? 7 | 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ @ 	 o = o + q $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 7 ; y ? 6 7 7 ; k ? 6 5 7 ; l ? 7 | 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ @ while o < i : $ q ? 7 ; i ? 6 7 8 ; o ? 6 8 4 ; y ? 6 7 7 ; k ? 6 5 7 ; l ? 7 | 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ @ print( l ) $ q ? 7 ; i ? 6 7 8 ; o ? 6 8 4 ; y ? 6 7 7 ; k ? 6 5 7 ; l ? 7 | 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+ @ ^ $ q ? 7 ; i ? 6 7 8 ; o ? 6 8 4 ; y ? 6 7 7 ; k ? 6 5 7 ; l ? 7 | #  7","# code
+ @ q = 7 $ | 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ @ i = 6 7 8 $ q ? 7 | 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ @ o = 6 7 0 $ q ? 7 ; i ? 6 7 8 | 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ @ while o < i : $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 0 | 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ @ 	 y = o $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 0 | 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ @ 	 k = 6 5 7 $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 0 ; y ? 6 7 0 | 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ @ 	 l = q $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 0 ; y ? 6 7 0 ; k ? 6 5 7 | 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ @ 	 o = o + q $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 0 ; y ? 6 7 0 ; k ? 6 5 7 ; l ? 6 7 0 | 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ @ while o < i : $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 7 ; y ? 6 7 0 ; k ? 6 5 7 ; l ? 6 7 0 | 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ @ print( l ) $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 7 ; y ? 6 7 0 ; k ? 6 5 7 ; l ? 6 7 0 | 
+#STEP
+ # code
+ q = 7 
+ i = 6 7 8 
+ o = 6 7 0 
+ while o < i : 
+ 	 y = o 
+ 	 k = 6 5 7 
+ 	 l = q 
+ 	 o = o + q 
+ print( l ) 
+ @ ^ $ q ? 7 ; i ? 6 7 8 ; o ? 6 7 7 ; y ? 6 7 0 ; k ? 6 5 7 ; l ? 6 7 0 | #  6 7 0@"
+4,"# code
+s = 230
+g = s
+x = 336 + g
+m = x
+if 308 < 401:
+	h = m + s
+	j = s
+print(x)
+#STEP
+","# code
+ @ s = 2 3 0 $ | 
+ g = s 
+ x = 3 3 6 + g 
+ m = x 
+ if 3 0 8 < 4 0 1 : 
+ 	 h = m + s 
+ 	 j = s 
+ print( x ) 
+#STEP
+ # code
+ s = 2 3 0 
+ @ g = s $ s ? 2 3 0 | 
+ x = 3 3 6 + g 
+ m = x 
+ if 3 0 8 < 4 0 1 : 
+ 	 h = m + s 
+ 	 j = s 
+ print( x ) 
+#STEP
+ # code
+ s = 2 3 0 
+ g = s 
+ @ x = 3 3 6 + g $ s ? 2 3 0 ; g ? 2 3 0 | 
+ m = x 
+ if 3 0 8 < 4 0 1 : 
+ 	 h = m + s 
+ 	 j = s 
+ print( x ) 
+#STEP
+ # code
+ s = 2 3 0 
+ g = s 
+ x = 3 3 6 + g 
+ @ m = x $ s ? 2 3 0 ; g ? 2 3 0 ; x ? 5 6 6 | 
+ if 3 0 8 < 4 0 1 : 
+ 	 h = m + s 
+ 	 j = s 
+ print( x ) 
+#STEP
+ # code
+ s = 2 3 0 
+ g = s 
+ x = 3 3 6 + g 
+ m = x 
+ @ if 3 0 8 < 4 0 1 : $ s ? 2 3 0 ; g ? 2 3 0 ; x ? 5 6 6 ; m ? 5 6 6 | 
+ 	 h = m + s 
+ 	 j = s 
+ print( x ) 
+#STEP
+ # code
+ s = 2 3 0 
+ g = s 
+ x = 3 3 6 + g 
+ m = x 
+ if 3 0 8 < 4 0 1 : 
+ @ 	 h = m + s $ s ? 2 3 0 ; g ? 2 3 0 ; x ? 5 6 6 ; m ? 5 6 6 | 
+ 	 j = s 
+ print( x ) 
+#STEP
+ # code
+ s = 2 3 0 
+ g = s 
+ x = 3 3 6 + g 
+ m = x 
+ if 3 0 8 < 4 0 1 : 
+ 	 h = m + s 
+ @ 	 j = s $ s ? 2 3 0 ; g ? 2 3 0 ; x ? 5 6 6 ; m ? 5 6 6 ; h ? 7 9 6 | 
+ print( x ) 
+#STEP
+ # code
+ s = 2 3 0 
+ g = s 
+ x = 3 3 6 + g 
+ m = x 
+ if 3 0 8 < 4 0 1 : 
+ 	 h = m + s 
+ 	 j = s 
+ @ print( x ) $ s ? 2 3 0 ; g ? 2 3 0 ; x ? 5 6 6 ; m ? 5 6 6 ; h ? 7 9 6 ; j ? 2 3 0 | 
+#STEP
+ # code
+ s = 2 3 0 
+ g = s 
+ x = 3 3 6 + g 
+ m = x 
+ if 3 0 8 < 4 0 1 : 
+ 	 h = m + s 
+ 	 j = s 
+ print( x ) 
+ @ ^ $ s ? 2 3 0 ; g ? 2 3 0 ; x ? 5 6 6 ; m ? 5 6 6 ; h ? 7 9 6 ; j ? 2 3 0 | #  5 6 6","# code
+ @ s = 2 3 0 $ | 
+ g = s 
+ x = 3 3 6 + g 
+ m = x 
+ if 3 0 8 < 4 0 1 : 
+ 	 h = m + s 
+ 	 j = s 
+ print( x ) 
+#STEP
+ # code
+ s = 2 3 0 
+ @ g = s $ s ? 2 3 0 | 
+ x = 3 3 6 + g 
+ m = x 
+ if 3 0 8 < 4 0 1 : 
+ 	 h = m + s 
+ 	 j = s 
+ print( x ) 
+#STEP
+ # code
+ s = 2 3 0 
+ g = s 
+ @ x = 3 3 6 + g $ s ? 2 3 0 ; g ? 2 3 0 | 
+ m = x 
+ if 3 0 8 < 4 0 1 : 
+ 	 h = m + s 
+ 	 j = s 
+ print( x ) 
+#STEP
+ # code
+ s = 2 3 0 
+ g = s 
+ x = 3 3 6 + g 
+ @ m = x $ s ? 2 3 0 ; g ? 2 3 0 ; x ? 5 6 6 | 
+ if 3 0 8 < 4 0 1 : 
+ 	 h = m + s 
+ 	 j = s 
+ print( x ) 
+#STEP
+ # code
+ s = 2 3 0 
+ g = s 
+ x = 3 3 6 + g 
+ m = x 
+ @ if 3 0 8 < 4 0 1 : $ s ? 2 3 0 ; g ? 2 3 0 ; x ? 5 6 6 ; m ? 5 6 6 | 
+ 	 h = m + s 
+ 	 j = s 
+ print( x ) 
+#STEP
+ # code
+ s = 2 3 0 
+ g = s 
+ x = 3 3 6 + g 
+ m = x 
+ if 3 0 8 < 4 0 1 : 
+ 	 h = m + s 
+ 	 j = s 
+ @ print( x ) $ s ? 2 3 0 ; g ? 2 3 0 ; x ? 5 6 6 ; m ? 5 6 6 | 
+#STEP
+ # code
+ s = 2 3 0 
+ g = s 
+ x = 3 3 6 + g 
+ m = x 
+ if 3 0 8 < 4 0 1 : 
+ 	 h = m + s 
+ 	 j = s 
+ print( x ) 
+ @ ^ $ s ? 2 3 0 ; g ? 2 3 0 ; x ? 5 6 6 ; m ? 5 6 6 | #  5 6 6@"
+5,"# code
+if 795 < 865:
+	f = 335
+	n = 282 + f
+	n = 398
+x = 43
+m = f + x
+while x < 50:
+	x = x + 5
+print(f)
+#STEP
+","# code
+ @ if 7 9 5 < 8 6 5 : $ | 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ @ 	 f = 3 3 5 $ | 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ @ 	 n = 2 8 2 + f $ f ? 3 3 5 | 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ @ 	 n = 3 9 8 $ f ? 3 3 5 ; n ? 6 1 7 | 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ @ x = 4 3 $ f ? 3 3 5 ; n ? 3 9 8 | 
+ m = f + x 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ @ m = f + x $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 4 3 | 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ @ while x < 5 0 : $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 4 3 ; m ? 3 7 8 | 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ @ 	 x = x + 5 $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 4 3 ; m ? 3 7 8 | 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ @ while x < 5 0 : $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 4 8 ; m ? 3 7 8 | 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ @ 	 x = x + 5 $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 4 8 ; m ? 3 7 8 | 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ @ while x < 5 0 : $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 5 3 ; m ? 3 7 8 | 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ @ print( f ) $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 5 3 ; m ? 3 7 8 | 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ print( f ) 
+ @ ^ $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 5 3 ; m ? 3 7 8 | #  3 3 5","# code
+ @ if 7 9 5 < 8 6 5 : $ | 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ @ 	 f = 3 3 5 $ | 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ @ 	 n = 2 8 2 + f $ f ? 3 3 5 | 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ @ 	 n = 3 9 8 $ f ? 3 3 5 ; n ? 6 1 7 | 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ @ x = 4 3 $ f ? 3 3 5 ; n ? 3 9 8 | 
+ m = f + x 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ @ m = f + x $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 4 3 | 
+ while x < 5 0 : 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ @ while x < 5 0 : $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 4 3 ; m ? 4 7 8 | 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ @ 	 x = x + 5 $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 4 3 ; m ? 4 7 8 | 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ @ while x < 5 0 : $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 4 8 ; m ? 4 7 8 | 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ @ 	 x = x + 5 $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 4 8 ; m ? 4 7 8 | 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ @ while x < 5 0 : $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 5 3 ; m ? 4 7 8 | 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ while x < 5 0 : 
+ @ 	 x = x + 5 $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 5 3 ; m ? 4 7 8 | 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ 	 f = 3 3 5 
+ 	 n = 2 8 2 + f 
+ 	 n = 3 9 8 
+ x = 4 3 
+ m = f + x 
+ @ while x < 5 0 : $ f ? 3 3 5 ; n ? 3 9 8 ; x ? 5 8 ; m ? 4 7 8 | 
+ 	 x = x + 5 
+ print( f ) 
+#STEP
+ # code
+ if 7 9 5 < 8 6 5 : 
+ @"
+6,"# code
+m = 971
+b = 639
+c = 446
+if b > 31:
+	x = 571
+	e = 262 + b
+else:
+	c = 829
+print(b)
+#STEP
+","# code
+ @ m = 9 7 1 $ | 
+ b = 6 3 9 
+ c = 4 4 6 
+ if b > 3 1 : 
+ 	 x = 5 7 1 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+#STEP
+ # code
+ m = 9 7 1 
+ @ b = 6 3 9 $ m ? 9 7 1 | 
+ c = 4 4 6 
+ if b > 3 1 : 
+ 	 x = 5 7 1 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+#STEP
+ # code
+ m = 9 7 1 
+ b = 6 3 9 
+ @ c = 4 4 6 $ m ? 9 7 1 ; b ? 6 3 9 | 
+ if b > 3 1 : 
+ 	 x = 5 7 1 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+#STEP
+ # code
+ m = 9 7 1 
+ b = 6 3 9 
+ c = 4 4 6 
+ @ if b > 3 1 : $ m ? 9 7 1 ; b ? 6 3 9 ; c ? 4 4 6 | 
+ 	 x = 5 7 1 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+#STEP
+ # code
+ m = 9 7 1 
+ b = 6 3 9 
+ c = 4 4 6 
+ if b > 3 1 : 
+ @ 	 x = 5 7 1 $ m ? 9 7 1 ; b ? 6 3 9 ; c ? 4 4 6 | 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+#STEP
+ # code
+ m = 9 7 1 
+ b = 6 3 9 
+ c = 4 4 6 
+ if b > 3 1 : 
+ 	 x = 5 7 1 
+ @ 	 e = 2 6 2 + b $ m ? 9 7 1 ; b ? 6 3 9 ; c ? 4 4 6 ; x ? 5 7 1 | 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+#STEP
+ # code
+ m = 9 7 1 
+ b = 6 3 9 
+ c = 4 4 6 
+ if b > 3 1 : 
+ 	 x = 5 7 1 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ @ print( b ) $ m ? 9 7 1 ; b ? 6 3 9 ; c ? 4 4 6 ; x ? 5 7 1 ; e ? 9 0 1 | 
+#STEP
+ # code
+ m = 9 7 1 
+ b = 6 3 9 
+ c = 4 4 6 
+ if b > 3 1 : 
+ 	 x = 5 7 1 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+ @ ^ $ m ? 9 7 1 ; b ? 6 3 9 ; c ? 4 4 6 ; x ? 5 7 1 ; e ? 9 0 1 | #  6 3 9","# code
+ @ m = 9 7 1 $ | 
+ b = 6 3 9 
+ c = 4 4 6 
+ if b > 3 1 : 
+ 	 x = 5 7 1 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+#STEP
+ # code
+ m = 9 7 1 
+ @ b = 6 3 9 $ m ? 9 7 1 | 
+ c = 4 4 6 
+ if b > 3 1 : 
+ 	 x = 5 7 1 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+#STEP
+ # code
+ m = 9 7 1 
+ b = 6 3 9 
+ @ c = 4 4 6 $ m ? 9 7 1 ; b ? 6 3 9 | 
+ if b > 3 1 : 
+ 	 x = 5 7 1 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+#STEP
+ # code
+ m = 9 7 1 
+ b = 6 3 9 
+ c = 4 4 6 
+ @ if b > 3 1 : $ m ? 9 7 1 ; b ? 6 3 9 ; c ? 4 4 6 | 
+ 	 x = 5 7 1 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+#STEP
+ # code
+ m = 9 7 1 
+ b = 6 3 9 
+ c = 4 4 6 
+ if b > 3 1 : 
+ @ 	 x = 5 7 1 $ m ? 9 7 1 ; b ? 6 3 9 ; c ? 4 4 6 | 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+#STEP
+ # code
+ m = 9 7 1 
+ b = 6 3 9 
+ c = 4 4 6 
+ if b > 3 1 : 
+ 	 x = 5 7 1 
+ @ 	 e = 2 6 2 + b $ m ? 9 7 1 ; b ? 6 3 9 ; c ? 4 4 6 ; x ? 5 7 1 | 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+#STEP
+ # code
+ m = 9 7 1 
+ b = 6 3 9 
+ c = 4 4 6 
+ if b > 3 1 : 
+ 	 x = 5 7 1 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ @ print( b ) $ m ? 9 7 1 ; b ? 6 3 9 ; c ? 4 4 6 ; x ? 5 7 1 ; e ? 8 9 1 | 
+#STEP
+ # code
+ m = 9 7 1 
+ b = 6 3 9 
+ c = 4 4 6 
+ if b > 3 1 : 
+ 	 x = 5 7 1 
+ 	 e = 2 6 2 + b 
+ else : 
+ 	 c = 8 2 9 
+ print( b ) 
+ @ ^ $ m ? 9 7 1 ; b ? 6 3 9 ; c ? 4 4 6 ; x ? 5 7 1 ; e ? 8 9 1 | #  6 3 9@"
+7,"# code
+s = 534
+i = 6
+w = 541
+while w > s:
+	x = 201
+	k = 179
+	s = s + i
+print(s)
+#STEP
+","# code
+ @ s = 5 3 4 $ | 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ @ i = 6 $ s ? 5 3 4 | 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ @ w = 5 4 1 $ s ? 5 3 4 ; i ? 6 | 
+ while w > s : 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ @ while w > s : $ s ? 5 3 4 ; i ? 6 ; w ? 5 4 1 | 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ @ 	 x = 2 0 1 $ s ? 5 3 4 ; i ? 6 ; w ? 5 4 1 | 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ @ 	 k = 1 7 9 $ s ? 5 3 4 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 | 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ @ 	 s = s + i $ s ? 5 3 4 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 ; k ? 1 7 9 | 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ @ while w > s : $ s ? 5 4 0 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 ; k ? 1 7 9 | 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ @ 	 x = 2 0 1 $ s ? 5 4 0 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 ; k ? 1 7 9 | 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ @ 	 k = 1 7 9 $ s ? 5 4 0 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 ; k ? 1 7 9 | 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ @ 	 s = s + i $ s ? 5 4 0 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 ; k ? 1 7 9 | 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ @ while w > s : $ s ? 5 4 6 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 ; k ? 1 7 9 | 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ @ print( s ) $ s ? 5 4 6 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 ; k ? 1 7 9 | 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+ @ ^ $ s ? 5 4 6 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 ; k ? 1 7 9 | #  5 4 6","# code
+ @ s = 5 3 4 $ | 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ @ i = 6 $ s ? 5 3 4 | 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ @ w = 5 4 1 $ s ? 5 3 4 ; i ? 6 | 
+ while w > s : 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ @ while w > s : $ s ? 5 3 4 ; i ? 6 ; w ? 5 4 1 | 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ @ 	 x = 2 0 1 $ s ? 5 3 4 ; i ? 6 ; w ? 5 4 1 | 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ @ 	 k = 1 7 9 $ s ? 5 3 4 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 | 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ @ 	 s = s + i $ s ? 5 3 4 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 ; k ? 1 7 9 | 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ @ while w > s : $ s ? 5 4 0 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 ; k ? 1 7 9 | 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ @ print( s ) $ s ? 5 4 0 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 ; k ? 1 7 9 | 
+#STEP
+ # code
+ s = 5 3 4 
+ i = 6 
+ w = 5 4 1 
+ while w > s : 
+ 	 x = 2 0 1 
+ 	 k = 1 7 9 
+ 	 s = s + i 
+ print( s ) 
+ @ ^ $ s ? 5 4 0 ; i ? 6 ; w ? 5 4 1 ; x ? 2 0 1 ; k ? 1 7 9 | #  5 4 0@"
+8,"# code
+c = 29
+c = 465
+k = 509
+while c < k:
+	n = 819
+	l = c + 16
+	b = k
+	c = l
+print(b)
+#STEP
+","# code
+ @ c = 2 9 $ | 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ @ c = 4 6 5 $ c ? 2 9 | 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ @ k = 5 0 9 $ c ? 4 6 5 | 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ @ while c < k : $ c ? 4 6 5 ; k ? 5 0 9 | 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ @ 	 n = 8 1 9 $ c ? 4 6 5 ; k ? 5 0 9 | 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ @ 	 l = c + 1 6 $ c ? 4 6 5 ; k ? 5 0 9 ; n ? 8 1 9 | 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ @ 	 b = k $ c ? 4 6 5 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 8 1 | 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ @ 	 c = l $ c ? 4 6 5 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 8 1 ; b ? 5 0 9 | 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ @ while c < k : $ c ? 4 8 1 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 8 1 ; b ? 5 0 9 | 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ @ 	 n = 8 1 9 $ c ? 4 8 1 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 8 1 ; b ? 5 0 9 | 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ @ 	 l = c + 1 6 $ c ? 4 8 1 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 8 1 ; b ? 5 0 9 | 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ @ 	 b = k $ c ? 4 8 1 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 9 7 ; b ? 5 0 9 | 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ @ 	 c = l $ c ? 4 8 1 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 9 7 ; b ? 5 0 9 | 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ @ while c < k : $ c ? 4 9 7 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 9 7 ; b ? 5 0 9 | 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ @ 	 n = 8 1 9 $ c ? 4 9 7 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 9 7 ; b ? 5 0 9 | 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ @ 	 l = c + 1 6 $ c ? 4 9 7 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 9 7 ; b ? 5 0 9 | 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ @ 	 b = k $ c ? 4 9 7 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 5 1 3 ; b ? 5 0 9 | 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ @ 	 c = l $ c ? 4 9 7 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 5 1 3 ; b ? 5 0 9 | 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ @ while c < k : $ c ? 5 1 3 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 5 1 3 ; b ? 5 0 9 | 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ @ print( b ) $ c ? 5 1 3 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 5 1 3 ; b ? 5 0 9 | 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+ @ ^ $ c ? 5 1 3 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 5 1 3 ; b ? 5 0 9 | #  5 0 9","# code
+ @ c = 2 9 $ | 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ @ c = 4 6 5 $ c ? 2 9 | 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ @ k = 5 0 9 $ c ? 4 6 5 | 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ @ while c < k : $ c ? 4 6 5 ; k ? 5 0 9 | 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ @ 	 n = 8 1 9 $ c ? 4 6 5 ; k ? 5 0 9 | 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ @ 	 l = c + 1 6 $ c ? 4 6 5 ; k ? 5 0 9 ; n ? 8 1 9 | 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ @ 	 b = k $ c ? 4 6 5 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 8 1 | 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ @ 	 c = l $ c ? 4 6 5 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 8 1 ; b ? 5 0 9 | 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ @ while c < k : $ c ? 4 8 1 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 8 1 ; b ? 5 0 9 | 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ @ print( b ) $ c ? 4 8 1 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 8 1 ; b ? 5 0 9 | 
+#STEP
+ # code
+ c = 2 9 
+ c = 4 6 5 
+ k = 5 0 9 
+ while c < k : 
+ 	 n = 8 1 9 
+ 	 l = c + 1 6 
+ 	 b = k 
+ 	 c = l 
+ print( b ) 
+ @ ^ $ c ? 4 8 1 ; k ? 5 0 9 ; n ? 8 1 9 ; l ? 4 8 1 ; b ? 5 0 9 | #  5 0 9@"
+9,"# code
+if 877 != 732:
+	o = 421
+	v = o
+	s = o + v
+	x = 284
+w = 435
+v = v
+while w < 477:
+	w = w + 20
+print(v)
+#STEP
+","# code
+ @ if 8 7 7 != 7 3 2 : $ | 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ @ 	 o = 4 2 1 $ | 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ @ 	 v = o $ o ? 4 2 1 | 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ @ 	 s = o + v $ o ? 4 2 1 ; v ? 4 2 1 | 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ @ 	 x = 2 8 4 $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 | 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ @ w = 4 3 5 $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 | 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ @ v = v $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 3 5 | 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ @ while w < 4 7 7 : $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 3 5 | 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ @ 	 w = w + 2 0 $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 3 5 | 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ @ while w < 4 7 7 : $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 5 5 | 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ @ 	 w = w + 2 0 $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 5 5 | 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ @ while w < 4 7 7 : $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 7 5 | 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ @ 	 w = w + 2 0 $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 7 5 | 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ @ while w < 4 7 7 : $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 9 5 | 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ @ print( v ) $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 9 5 | 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+ @ ^ $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 9 5 | #  4 2 1","# code
+ @ if 8 7 7 != 7 3 2 : $ | 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ @ 	 o = 4 2 1 $ | 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ @ 	 v = o $ o ? 4 2 1 | 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ @ 	 s = o + v $ o ? 4 2 1 ; v ? 4 2 1 | 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ @ 	 x = 2 8 4 $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 | 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ @ w = 4 3 5 $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 | 
+ v = v 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ @ v = v $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 3 5 | 
+ while w < 4 7 7 : 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ @ while w < 4 7 7 : $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 3 5 | 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ @ 	 w = w + 2 0 $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 3 5 | 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ @ while w < 4 7 7 : $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 5 5 | 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ @ 	 w = w + 2 0 $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 5 5 | 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ @ while w < 4 7 7 : $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 7 5 | 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ @ 	 w = w + 2 0 $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 7 5 | 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ @ while w < 4 7 7 : $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 9 5 | 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ while w < 4 7 7 : 
+ @ 	 w = w + 2 0 $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 4 9 5 | 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ 	 o = 4 2 1 
+ 	 v = o 
+ 	 s = o + v 
+ 	 x = 2 8 4 
+ w = 4 3 5 
+ v = v 
+ @ while w < 4 7 7 : $ o ? 4 2 1 ; v ? 4 2 1 ; s ? 8 4 2 ; x ? 2 8 4 ; w ? 5 1 0 | 
+ 	 w = w + 2 0 
+ print( v ) 
+#STEP
+ # code
+ if 8 7 7 != 7 3 2 : 
+ @"
+10,"# code
+r = 132
+q = 3
+v = 140
+while r < v:
+	x = r + q
+	d = 153 + v
+	r = x
+print(d)
+#STEP
+","# code
+ @ r = 1 3 2 $ | 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ @ q = 3 $ r ? 1 3 2 | 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ @ v = 1 4 0 $ r ? 1 3 2 ; q ? 3 | 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ @ while r < v : $ r ? 1 3 2 ; q ? 3 ; v ? 1 4 0 | 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ @ 	 x = r + q $ r ? 1 3 2 ; q ? 3 ; v ? 1 4 0 | 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ @ 	 d = 1 5 3 + v $ r ? 1 3 2 ; q ? 3 ; v ? 1 4 0 ; x ? 1 3 5 | 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ @ 	 r = x $ r ? 1 3 2 ; q ? 3 ; v ? 1 4 0 ; x ? 1 3 5 ; d ? 2 9 3 | 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ @ while r < v : $ r ? 1 3 5 ; q ? 3 ; v ? 1 4 0 ; x ? 1 3 5 ; d ? 2 9 3 | 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ @ 	 x = r + q $ r ? 1 3 5 ; q ? 3 ; v ? 1 4 0 ; x ? 1 3 5 ; d ? 2 9 3 | 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ @ 	 d = 1 5 3 + v $ r ? 1 3 5 ; q ? 3 ; v ? 1 4 0 ; x ? 1 3 8 ; d ? 2 9 3 | 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ @ 	 r = x $ r ? 1 3 5 ; q ? 3 ; v ? 1 4 0 ; x ? 1 3 8 ; d ? 2 9 3 | 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ @ while r < v : $ r ? 1 3 8 ; q ? 3 ; v ? 1 4 0 ; x ? 1 3 8 ; d ? 2 9 3 | 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ @ 	 x = r + q $ r ? 1 3 8 ; q ? 3 ; v ? 1 4 0 ; x ? 1 3 8 ; d ? 2 9 3 | 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ @ 	 d = 1 5 3 + v $ r ? 1 3 8 ; q ? 3 ; v ? 1 4 0 ; x ? 1 4 1 ; d ? 2 9 3 | 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ @ 	 r = x $ r ? 1 3 8 ; q ? 3 ; v ? 1 4 0 ; x ? 1 4 1 ; d ? 2 9 3 | 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ @ while r < v : $ r ? 1 4 1 ; q ? 3 ; v ? 1 4 0 ; x ? 1 4 1 ; d ? 2 9 3 | 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ @ print( d ) $ r ? 1 4 1 ; q ? 3 ; v ? 1 4 0 ; x ? 1 4 1 ; d ? 2 9 3 | 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+ @ ^ $ r ? 1 4 1 ; q ? 3 ; v ? 1 4 0 ; x ? 1 4 1 ; d ? 2 9 3 | #  2 9 3","# code
+ @ r = 1 3 2 $ | 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ @ q = 3 $ r ? 1 3 2 | 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ @ v = 1 4 0 $ r ? 1 3 2 ; q ? 3 | 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ @ while r < v : $ r ? 1 3 2 ; q ? 3 ; v ? 1 4 0 | 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ @ 	 x = r + q $ r ? 1 3 2 ; q ? 3 ; v ? 1 4 0 | 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ @ 	 d = 1 5 3 + v $ r ? 1 3 2 ; q ? 3 ; v ? 1 4 0 ; x ? 1 4 3 | 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ @ 	 r = x $ r ? 1 3 2 ; q ? 3 ; v ? 1 4 0 ; x ? 1 4 3 ; d ? 2 9 3 | 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ @ while r < v : $ r ? 1 4 3 ; q ? 3 ; v ? 1 4 0 ; x ? 1 4 3 ; d ? 2 9 3 | 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ @ print( d ) $ r ? 1 4 3 ; q ? 3 ; v ? 1 4 0 ; x ? 1 4 3 ; d ? 2 9 3 | 
+#STEP
+ # code
+ r = 1 3 2 
+ q = 3 
+ v = 1 4 0 
+ while r < v : 
+ 	 x = r + q 
+ 	 d = 1 5 3 + v 
+ 	 r = x 
+ print( d ) 
+ @ ^ $ r ? 1 4 3 ; q ? 3 ; v ? 1 4 0 ; x ? 1 4 3 ; d ? 2 9 3 | #  2 9 3@"
+11,"# code
+if 831 == 546:
+	i = 85 + 97
+	w = i
+	h = w
+	o = 236
+	y = 950
+l = 630 + 35
+print(l)
+#STEP
+","# code
+ @ if 8 3 1 == 5 4 6 : $ | 
+ 	 i = 8 5 + 9 7 
+ 	 w = i 
+ 	 h = w 
+ 	 o = 2 3 6 
+ 	 y = 9 5 0 
+ l = 6 3 0 + 3 5 
+ print( l ) 
+#STEP
+ # code
+ if 8 3 1 == 5 4 6 : 
+ 	 i = 8 5 + 9 7 
+ 	 w = i 
+ 	 h = w 
+ 	 o = 2 3 6 
+ 	 y = 9 5 0 
+ @ l = 6 3 0 + 3 5 $ | 
+ print( l ) 
+#STEP
+ # code
+ if 8 3 1 == 5 4 6 : 
+ 	 i = 8 5 + 9 7 
+ 	 w = i 
+ 	 h = w 
+ 	 o = 2 3 6 
+ 	 y = 9 5 0 
+ l = 6 3 0 + 3 5 
+ @ print( l ) $ l ? 6 6 5 | 
+#STEP
+ # code
+ if 8 3 1 == 5 4 6 : 
+ 	 i = 8 5 + 9 7 
+ 	 w = i 
+ 	 h = w 
+ 	 o = 2 3 6 
+ 	 y = 9 5 0 
+ l = 6 3 0 + 3 5 
+ print( l ) 
+ @ ^ $ l ? 6 6 5 | #  6 6 5","# code
+ @ if 8 3 1 == 5 4 6 : $ | 
+ 	 i = 8 5 + 9 7 
+ 	 w = i 
+ 	 h = w 
+ 	 o = 2 3 6 
+ 	 y = 9 5 0 
+ l = 6 3 0 + 3 5 
+ print( l ) 
+#STEP
+ # code
+ if 8 3 1 == 5 4 6 : 
+ 	 i = 8 5 + 9 7 
+ 	 w = i 
+ 	 h = w 
+ 	 o = 2 3 6 
+ 	 y = 9 5 0 
+ @ l = 6 3 0 + 3 5 $ | 
+ print( l ) 
+#STEP
+ # code
+ if 8 3 1 == 5 4 6 : 
+ 	 i = 8 5 + 9 7 
+ 	 w = i 
+ 	 h = w 
+ 	 o = 2 3 6 
+ 	 y = 9 5 0 
+ l = 6 3 0 + 3 5 
+ @ print( l ) $ l ? 6 8 5 | 
+#STEP
+ # code
+ if 8 3 1 == 5 4 6 : 
+ 	 i = 8 5 + 9 7 
+ 	 w = i 
+ 	 h = w 
+ 	 o = 2 3 6 
+ 	 y = 9 5 0 
+ l = 6 3 0 + 3 5 
+ print( l ) 
+ @ ^ $ l ? 6 8 5 | #  6 8 5@"
+12,"# code
+f = 972
+s = 21
+while 974 > f:
+	s = s
+	p = 618
+	t = 895
+	if s < f:
+		print(s)
+	f = f + 1
+#STEP
+","# code
+ @ f = 9 7 2 $ | 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ @ s = 2 1 $ f ? 9 7 2 | 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ @ while 9 7 4 > f : $ f ? 9 7 2 ; s ? 2 1 | 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ @ 	 s = s $ f ? 9 7 2 ; s ? 2 1 | 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ @ 	 p = 6 1 8 $ f ? 9 7 2 ; s ? 2 1 | 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ @ 	 t = 8 9 5 $ f ? 9 7 2 ; s ? 2 1 ; p ? 6 1 8 | 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ @ 	 if s < f : $ f ? 9 7 2 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ @ 	 	 print( s ) $ f ? 9 7 2 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ @ 	 f = f + 1 $ f ? 9 7 2 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | #  2 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ @ while 9 7 4 > f : $ f ? 9 7 3 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | #  2 1 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ @ 	 s = s $ f ? 9 7 3 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | #  2 1 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ @ 	 p = 6 1 8 $ f ? 9 7 3 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | #  2 1 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ @ 	 t = 8 9 5 $ f ? 9 7 3 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | #  2 1 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ @ 	 if s < f : $ f ? 9 7 3 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | #  2 1 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ @ 	 	 print( s ) $ f ? 9 7 3 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | #  2 1 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ @ 	 f = f + 1 $ f ? 9 7 3 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | #  2 1 & #  2 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ @ while 9 7 4 > f : $ f ? 9 7 4 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | #  2 1 & #  2 1 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+ @ ^ $ f ? 9 7 4 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | #  2 1 & #  2 1","# code
+ @ f = 9 7 2 $ | 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ @ s = 2 1 $ f ? 9 7 2 | 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ @ while 9 7 4 > f : $ f ? 9 7 2 ; s ? 2 1 | 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ @ 	 s = s $ f ? 9 7 2 ; s ? 2 1 | 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ @ 	 p = 6 1 8 $ f ? 9 7 2 ; s ? 2 1 | 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ @ 	 t = 8 9 5 $ f ? 9 7 2 ; s ? 2 1 ; p ? 6 1 8 | 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ @ 	 if s < f : $ f ? 9 7 2 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ @ 	 	 print( s ) $ f ? 9 7 2 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | 
+ 	 f = f + 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ @ 	 f = f + 1 $ f ? 9 7 2 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | #  2 1 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ @ while 9 7 4 > f : $ f ? 9 8 3 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | #  2 1 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+ print( f ) 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+ @ print( f ) $ f ? 9 8 3 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | 
+#STEP
+ # code
+ f = 9 7 2 
+ s = 2 1 
+ while 9 7 4 > f : 
+ 	 s = s 
+ 	 p = 6 1 8 
+ 	 t = 8 9 5 
+ 	 if s < f : 
+ 	 	 print( s ) 
+ 	 f = f + 1 
+ print( f ) 
+ @ ^ $ f ? 9 8 3 ; s ? 2 1 ; p ? 6 1 8 ; t ? 8 9 5 | #  9 8 3@"
+13,"# code
+q = 690
+i = q
+c = 492
+u = 556
+o = 638
+v = q
+while o < 667:
+	j = o + 11
+	e = 596
+	o = j
+print(v)
+#STEP
+","# code
+ @ q = 6 9 0 $ | 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ @ i = q $ q ? 6 9 0 | 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ @ c = 4 9 2 $ q ? 6 9 0 ; i ? 6 9 0 | 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ @ u = 5 5 6 $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 | 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ @ o = 6 3 8 $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 | 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ @ v = q $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 3 8 | 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ @ while o < 6 6 7 : $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 3 8 ; v ? 6 9 0 | 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ @ 	 j = o + 1 1 $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 3 8 ; v ? 6 9 0 | 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ @ 	 e = 5 9 6 $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 3 8 ; v ? 6 9 0 ; j ? 6 4 9 | 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ @ 	 o = j $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 3 8 ; v ? 6 9 0 ; j ? 6 4 9 ; e ? 5 9 6 | 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ @ while o < 6 6 7 : $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 4 9 ; v ? 6 9 0 ; j ? 6 4 9 ; e ? 5 9 6 | 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ @ 	 j = o + 1 1 $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 4 9 ; v ? 6 9 0 ; j ? 6 4 9 ; e ? 5 9 6 | 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ @ 	 e = 5 9 6 $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 4 9 ; v ? 6 9 0 ; j ? 6 6 0 ; e ? 5 9 6 | 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ @ 	 o = j $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 4 9 ; v ? 6 9 0 ; j ? 6 6 0 ; e ? 5 9 6 | 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ @ while o < 6 6 7 : $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 6 0 ; v ? 6 9 0 ; j ? 6 6 0 ; e ? 5 9 6 | 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ @ 	 j = o + 1 1 $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 6 0 ; v ? 6 9 0 ; j ? 6 6 0 ; e ? 5 9 6 | 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ @ 	 e = 5 9 6 $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 6 0 ; v ? 6 9 0 ; j ? 6 7 1 ; e ? 5 9 6 | 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ @ 	 o = j $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 6 0 ; v ? 6 9 0 ; j ? 6 7 1 ; e ? 5 9 6 | 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ @ while o < 6 6 7 : $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 7 1 ; v ? 6 9 0 ; j ? 6 7 1 ; e ? 5 9 6 | 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ @ print( v ) $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 7 1 ; v ? 6 9 0 ; j ? 6 7 1 ; e ? 5 9 6 | 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+ @ ^ $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 7 1 ; v ? 6 9 0 ; j ? 6 7 1 ; e ? 5 9 6 | #  6 9 0","# code
+ @ q = 6 9 0 $ | 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ @ i = q $ q ? 6 9 0 | 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ @ c = 4 9 2 $ q ? 6 9 0 ; i ? 6 9 0 | 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ @ u = 5 5 6 $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 | 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ @ o = 6 3 8 $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 | 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ @ v = q $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 3 8 | 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ @ while o < 6 6 7 : $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 3 8 ; v ? 6 9 0 | 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ @ 	 j = o + 1 1 $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 3 8 ; v ? 6 9 0 | 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ @ 	 e = 5 9 6 $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 3 8 ; v ? 6 9 0 ; j ? 6 4 9 | 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ @ 	 o = j $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 3 8 ; v ? 6 9 0 ; j ? 6 4 9 ; e ? 5 9 6 | 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ @ while o < 6 6 7 : $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 4 9 ; v ? 6 9 0 ; j ? 6 4 9 ; e ? 5 9 6 | 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ @ print( v ) $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 4 9 ; v ? 6 9 0 ; j ? 6 4 9 ; e ? 5 9 6 | 
+#STEP
+ # code
+ q = 6 9 0 
+ i = q 
+ c = 4 9 2 
+ u = 5 5 6 
+ o = 6 3 8 
+ v = q 
+ while o < 6 6 7 : 
+ 	 j = o + 1 1 
+ 	 e = 5 9 6 
+ 	 o = j 
+ print( v ) 
+ @ ^ $ q ? 6 9 0 ; i ? 6 9 0 ; c ? 4 9 2 ; u ? 5 5 6 ; o ? 6 4 9 ; v ? 6 9 0 ; j ? 6 4 9 ; e ? 5 9 6 | #  6 9 0@"
+14,"# code
+i = 386
+j = 746
+u = 695
+g = 19
+s = 667
+while u > s:
+	if u == u:
+		w = 801
+	s = s + g
+print(u)
+#STEP
+","# code
+ @ i = 3 8 6 $ | 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ @ j = 7 4 6 $ i ? 3 8 6 | 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ @ u = 6 9 5 $ i ? 3 8 6 ; j ? 7 4 6 | 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ @ g = 1 9 $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 | 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ @ s = 6 6 7 $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 | 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ @ while u > s : $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 6 6 7 | 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ @ 	 if u == u : $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 6 6 7 | 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ @ 	 	 w = 8 0 1 $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 6 6 7 | 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ @ 	 s = s + g $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 6 6 7 ; w ? 8 0 1 | 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ @ while u > s : $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 6 8 6 ; w ? 8 0 1 | 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ @ 	 if u == u : $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 6 8 6 ; w ? 8 0 1 | 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ @ 	 	 w = 8 0 1 $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 6 8 6 ; w ? 8 0 1 | 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ @ 	 s = s + g $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 6 8 6 ; w ? 8 0 1 | 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ @ while u > s : $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 7 0 5 ; w ? 8 0 1 | 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ @ print( u ) $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 7 0 5 ; w ? 8 0 1 | 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+ @ ^ $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 7 0 5 ; w ? 8 0 1 | #  6 9 5","# code
+ @ i = 3 8 6 $ | 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ @ j = 7 4 6 $ i ? 3 8 6 | 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ @ u = 6 9 5 $ i ? 3 8 6 ; j ? 7 4 6 | 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ @ g = 1 9 $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 | 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ @ s = 6 6 7 $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 | 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ @ while u > s : $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 6 6 7 | 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ @ 	 if u == u : $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 6 6 7 | 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ @ 	 s = s + g $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 6 6 7 | 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ @ while u > s : $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 7 0 6 | 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ @ print( u ) $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 7 0 6 | 
+#STEP
+ # code
+ i = 3 8 6 
+ j = 7 4 6 
+ u = 6 9 5 
+ g = 1 9 
+ s = 6 6 7 
+ while u > s : 
+ 	 if u == u : 
+ 	 	 w = 8 0 1 
+ 	 s = s + g 
+ print( u ) 
+ @ ^ $ i ? 3 8 6 ; j ? 7 4 6 ; u ? 6 9 5 ; g ? 1 9 ; s ? 7 0 6 | #  6 9 5@"
+15,"# code
+if 752 > 702:
+	e = 682
+	l = 6
+	i = e
+	l = e
+	s = i
+	x = 181
+print(l)
+#STEP
+","# code
+ @ if 7 5 2 > 7 0 2 : $ | 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ 	 i = e 
+ 	 l = e 
+ 	 s = i 
+ 	 x = 1 8 1 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ @ 	 e = 6 8 2 $ | 
+ 	 l = 6 
+ 	 i = e 
+ 	 l = e 
+ 	 s = i 
+ 	 x = 1 8 1 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ @ 	 l = 6 $ e ? 6 8 2 | 
+ 	 i = e 
+ 	 l = e 
+ 	 s = i 
+ 	 x = 1 8 1 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ @ 	 i = e $ e ? 6 8 2 ; l ? 6 | 
+ 	 l = e 
+ 	 s = i 
+ 	 x = 1 8 1 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ 	 i = e 
+ @ 	 l = e $ e ? 6 8 2 ; l ? 6 ; i ? 6 8 2 | 
+ 	 s = i 
+ 	 x = 1 8 1 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ 	 i = e 
+ 	 l = e 
+ @ 	 s = i $ e ? 6 8 2 ; l ? 6 8 2 ; i ? 6 8 2 | 
+ 	 x = 1 8 1 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ 	 i = e 
+ 	 l = e 
+ 	 s = i 
+ @ 	 x = 1 8 1 $ e ? 6 8 2 ; l ? 6 8 2 ; i ? 6 8 2 ; s ? 6 8 2 | 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ 	 i = e 
+ 	 l = e 
+ 	 s = i 
+ 	 x = 1 8 1 
+ @ print( l ) $ e ? 6 8 2 ; l ? 6 8 2 ; i ? 6 8 2 ; s ? 6 8 2 ; x ? 1 8 1 | 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ 	 i = e 
+ 	 l = e 
+ 	 s = i 
+ 	 x = 1 8 1 
+ print( l ) 
+ @ ^ $ e ? 6 8 2 ; l ? 6 8 2 ; i ? 6 8 2 ; s ? 6 8 2 ; x ? 1 8 1 | #  6 8 2","# code
+ @ if 7 5 2 > 7 0 2 : $ | 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ 	 i = e 
+ 	 l = e 
+ 	 s = i 
+ 	 x = 1 8 1 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ @ 	 e = 6 8 2 $ | 
+ 	 l = 6 
+ 	 i = e 
+ 	 l = e 
+ 	 s = i 
+ 	 x = 1 8 1 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ @ 	 l = 6 $ e ? 6 8 2 | 
+ 	 i = e 
+ 	 l = e 
+ 	 s = i 
+ 	 x = 1 8 1 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ @ 	 i = e $ e ? 6 8 2 ; l ? 6 | 
+ 	 l = e 
+ 	 s = i 
+ 	 x = 1 8 1 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ 	 i = e 
+ @ 	 l = e $ e ? 6 8 2 ; l ? 6 ; i ? 6 8 2 | 
+ 	 s = i 
+ 	 x = 1 8 1 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ 	 i = e 
+ 	 l = e 
+ @ 	 s = i $ e ? 6 8 2 ; l ? 6 ; i ? 6 8 2 | 
+ 	 x = 1 8 1 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ 	 i = e 
+ 	 l = e 
+ 	 s = i 
+ @ 	 x = 1 8 1 $ e ? 6 8 2 ; l ? 6 ; i ? 6 8 2 ; s ? 6 8 2 | 
+ print( l ) 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ 	 i = e 
+ 	 l = e 
+ 	 s = i 
+ 	 x = 1 8 1 
+ @ print( l ) $ e ? 6 8 2 ; l ? 6 ; i ? 6 8 2 ; s ? 6 8 2 ; x ? 1 8 1 | 
+#STEP
+ # code
+ if 7 5 2 > 7 0 2 : 
+ 	 e = 6 8 2 
+ 	 l = 6 
+ 	 i = e 
+ 	 l = e 
+ 	 s = i 
+ 	 x = 1 8 1 
+ print( l ) 
+ @ ^ $ e ? 6 8 2 ; l ? 6 ; i ? 6 8 2 ; s ? 6 8 2 ; x ? 1 8 1 | #  6@"
+16,"# code
+p = 355
+a = p
+u = a + p
+g = 647
+b = 682
+d = 12
+while g > b:
+	k = g + d
+	x = b + p
+	g = k
+print(p)
+#STEP
+","# code
+ @ p = 3 5 5 $ | 
+ a = p 
+ u = a + p 
+ g = 6 4 7 
+ b = 6 8 2 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ @ a = p $ p ? 3 5 5 | 
+ u = a + p 
+ g = 6 4 7 
+ b = 6 8 2 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ @ u = a + p $ p ? 3 5 5 ; a ? 3 5 5 | 
+ g = 6 4 7 
+ b = 6 8 2 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ u = a + p 
+ @ g = 6 4 7 $ p ? 3 5 5 ; a ? 3 5 5 ; u ? 7 1 0 | 
+ b = 6 8 2 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ u = a + p 
+ g = 6 4 7 
+ @ b = 6 8 2 $ p ? 3 5 5 ; a ? 3 5 5 ; u ? 7 1 0 ; g ? 6 4 7 | 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ u = a + p 
+ g = 6 4 7 
+ b = 6 8 2 
+ @ d = 1 2 $ p ? 3 5 5 ; a ? 3 5 5 ; u ? 7 1 0 ; g ? 6 4 7 ; b ? 6 8 2 | 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ u = a + p 
+ g = 6 4 7 
+ b = 6 8 2 
+ d = 1 2 
+ @ while g > b : $ p ? 3 5 5 ; a ? 3 5 5 ; u ? 7 1 0 ; g ? 6 4 7 ; b ? 6 8 2 ; d ? 1 2 | 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ u = a + p 
+ g = 6 4 7 
+ b = 6 8 2 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ @ print( p ) $ p ? 3 5 5 ; a ? 3 5 5 ; u ? 7 1 0 ; g ? 6 4 7 ; b ? 6 8 2 ; d ? 1 2 | 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ u = a + p 
+ g = 6 4 7 
+ b = 6 8 2 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+ @ ^ $ p ? 3 5 5 ; a ? 3 5 5 ; u ? 7 1 0 ; g ? 6 4 7 ; b ? 6 8 2 ; d ? 1 2 | #  3 5 5","# code
+ @ p = 3 5 5 $ | 
+ a = p 
+ u = a + p 
+ g = 6 4 7 
+ b = 6 8 2 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ @ a = p $ p ? 3 5 5 | 
+ u = a + p 
+ g = 6 4 7 
+ b = 6 8 2 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ @ u = a + p $ p ? 3 5 5 ; a ? 3 5 5 | 
+ g = 6 4 7 
+ b = 6 8 2 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ u = a + p 
+ @ g = 6 4 7 $ p ? 3 5 5 ; a ? 3 5 5 ; u ? 7 0 0 | 
+ b = 6 8 2 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ u = a + p 
+ g = 6 4 7 
+ @ b = 6 8 2 $ p ? 3 5 5 ; a ? 3 5 5 ; u ? 7 0 0 ; g ? 6 4 7 | 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ u = a + p 
+ g = 6 4 7 
+ b = 6 8 2 
+ @ d = 1 2 $ p ? 3 5 5 ; a ? 3 5 5 ; u ? 7 0 0 ; g ? 6 4 7 ; b ? 6 8 2 | 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ u = a + p 
+ g = 6 4 7 
+ b = 6 8 2 
+ d = 1 2 
+ @ while g > b : $ p ? 3 5 5 ; a ? 3 5 5 ; u ? 7 0 0 ; g ? 6 4 7 ; b ? 6 8 2 ; d ? 1 2 | 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ u = a + p 
+ g = 6 4 7 
+ b = 6 8 2 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ @ print( p ) $ p ? 3 5 5 ; a ? 3 5 5 ; u ? 7 0 0 ; g ? 6 4 7 ; b ? 6 8 2 ; d ? 1 2 | 
+#STEP
+ # code
+ p = 3 5 5 
+ a = p 
+ u = a + p 
+ g = 6 4 7 
+ b = 6 8 2 
+ d = 1 2 
+ while g > b : 
+ 	 k = g + d 
+ 	 x = b + p 
+ 	 g = k 
+ print( p ) 
+ @ ^ $ p ? 3 5 5 ; a ? 3 5 5 ; u ? 7 0 0 ; g ? 6 4 7 ; b ? 6 8 2 ; d ? 1 2 | #  3 5 5@"
+17,"# code
+x = 553
+m = 959
+n = m
+b = 966
+t = 8
+while m < b:
+	if 561 < 835:
+		c = 774 + t
+	m = m + t
+print(n)
+#STEP
+","# code
+ @ x = 5 5 3 $ | 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ @ m = 9 5 9 $ x ? 5 5 3 | 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ @ n = m $ x ? 5 5 3 ; m ? 9 5 9 | 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ @ b = 9 6 6 $ x ? 5 5 3 ; m ? 9 5 9 ; n ? 9 5 9 | 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ @ t = 8 $ x ? 5 5 3 ; m ? 9 5 9 ; n ? 9 5 9 ; b ? 9 6 6 | 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ @ while m < b : $ x ? 5 5 3 ; m ? 9 5 9 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 | 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ @ 	 if 5 6 1 < 8 3 5 : $ x ? 5 5 3 ; m ? 9 5 9 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 | 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ @ 	 	 c = 7 7 4 + t $ x ? 5 5 3 ; m ? 9 5 9 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 | 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ @ 	 m = m + t $ x ? 5 5 3 ; m ? 9 5 9 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 ; c ? 7 8 2 | 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ @ while m < b : $ x ? 5 5 3 ; m ? 9 6 7 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 ; c ? 7 8 2 | 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ @ print( n ) $ x ? 5 5 3 ; m ? 9 6 7 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 ; c ? 7 8 2 | 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+ @ ^ $ x ? 5 5 3 ; m ? 9 6 7 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 ; c ? 7 8 2 | #  9 5 9","# code
+ @ x = 5 5 3 $ | 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ @ m = 9 5 9 $ x ? 5 5 3 | 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ @ n = m $ x ? 5 5 3 ; m ? 9 5 9 | 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ @ b = 9 6 6 $ x ? 5 5 3 ; m ? 9 5 9 ; n ? 9 5 9 | 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ @ t = 8 $ x ? 5 5 3 ; m ? 9 5 9 ; n ? 9 5 9 ; b ? 9 6 6 | 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ @ while m < b : $ x ? 5 5 3 ; m ? 9 5 9 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 | 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ @ 	 if 5 6 1 < 8 3 5 : $ x ? 5 5 3 ; m ? 9 5 9 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 | 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ @ 	 	 c = 7 7 4 + t $ x ? 5 5 3 ; m ? 9 5 9 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 | 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ @ 	 m = m + t $ x ? 5 5 3 ; m ? 9 5 9 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 ; c ? 8 4 2 | 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ @ while m < b : $ x ? 5 5 3 ; m ? 9 6 7 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 ; c ? 8 4 2 | 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ @ print( n ) $ x ? 5 5 3 ; m ? 9 6 7 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 ; c ? 8 4 2 | 
+#STEP
+ # code
+ x = 5 5 3 
+ m = 9 5 9 
+ n = m 
+ b = 9 6 6 
+ t = 8 
+ while m < b : 
+ 	 if 5 6 1 < 8 3 5 : 
+ 	 	 c = 7 7 4 + t 
+ 	 m = m + t 
+ print( n ) 
+ @ ^ $ x ? 5 5 3 ; m ? 9 6 7 ; n ? 9 5 9 ; b ? 9 6 6 ; t ? 8 ; c ? 8 4 2 | #  9 5 9@"
+18,"# code
+f = 135
+t = 380
+l = 384
+g = 1
+h = 382
+while h > t:
+	l = 616
+	t = t + g
+print(t)
+#STEP
+","# code
+ @ f = 1 3 5 $ | 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ @ t = 3 8 0 $ f ? 1 3 5 | 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ @ l = 3 8 4 $ f ? 1 3 5 ; t ? 3 8 0 | 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ @ g = 1 $ f ? 1 3 5 ; t ? 3 8 0 ; l ? 3 8 4 | 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ @ h = 3 8 2 $ f ? 1 3 5 ; t ? 3 8 0 ; l ? 3 8 4 ; g ? 1 | 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ @ while h > t : $ f ? 1 3 5 ; t ? 3 8 0 ; l ? 3 8 4 ; g ? 1 ; h ? 3 8 2 | 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ @ 	 l = 6 1 6 $ f ? 1 3 5 ; t ? 3 8 0 ; l ? 3 8 4 ; g ? 1 ; h ? 3 8 2 | 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ @ 	 t = t + g $ f ? 1 3 5 ; t ? 3 8 0 ; l ? 6 1 6 ; g ? 1 ; h ? 3 8 2 | 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ @ while h > t : $ f ? 1 3 5 ; t ? 3 8 1 ; l ? 6 1 6 ; g ? 1 ; h ? 3 8 2 | 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ @ 	 l = 6 1 6 $ f ? 1 3 5 ; t ? 3 8 1 ; l ? 6 1 6 ; g ? 1 ; h ? 3 8 2 | 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ @ 	 t = t + g $ f ? 1 3 5 ; t ? 3 8 1 ; l ? 6 1 6 ; g ? 1 ; h ? 3 8 2 | 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ @ while h > t : $ f ? 1 3 5 ; t ? 3 8 2 ; l ? 6 1 6 ; g ? 1 ; h ? 3 8 2 | 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ @ print( t ) $ f ? 1 3 5 ; t ? 3 8 2 ; l ? 6 1 6 ; g ? 1 ; h ? 3 8 2 | 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+ @ ^ $ f ? 1 3 5 ; t ? 3 8 2 ; l ? 6 1 6 ; g ? 1 ; h ? 3 8 2 | #  3 8 2","# code
+ @ f = 1 3 5 $ | 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ @ t = 3 8 0 $ f ? 1 3 5 | 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ @ l = 3 8 4 $ f ? 1 3 5 ; t ? 3 8 0 | 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ @ g = 1 $ f ? 1 3 5 ; t ? 3 8 0 ; l ? 3 8 4 | 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ @ h = 3 8 2 $ f ? 1 3 5 ; t ? 3 8 0 ; l ? 3 8 4 ; g ? 1 | 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ @ while h > t : $ f ? 1 3 5 ; t ? 3 8 0 ; l ? 3 8 4 ; g ? 1 ; h ? 3 8 2 | 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ @ 	 l = 6 1 6 $ f ? 1 3 5 ; t ? 3 8 0 ; l ? 3 8 4 ; g ? 1 ; h ? 3 8 2 | 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ @ 	 t = t + g $ f ? 1 3 5 ; t ? 3 8 0 ; l ? 6 1 6 ; g ? 1 ; h ? 3 8 2 | 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ @ while h > t : $ f ? 1 3 5 ; t ? 3 8 1 ; l ? 6 1 6 ; g ? 1 ; h ? 3 8 2 | 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ @ print( t ) $ f ? 1 3 5 ; t ? 3 8 1 ; l ? 6 1 6 ; g ? 1 ; h ? 3 8 2 | 
+#STEP
+ # code
+ f = 1 3 5 
+ t = 3 8 0 
+ l = 3 8 4 
+ g = 1 
+ h = 3 8 2 
+ while h > t : 
+ 	 l = 6 1 6 
+ 	 t = t + g 
+ print( t ) 
+ @ ^ $ f ? 1 3 5 ; t ? 3 8 1 ; l ? 6 1 6 ; g ? 1 ; h ? 3 8 2 | #  3 8 1@"
+19,"# code
+i = 683
+h = 326
+if 91 == i:
+	i = i
+	s = 184 + 872
+	l = 756
+k = 1
+s = 10
+r = i
+while s < 11:
+	s = s + k
+print(s)
+#STEP
+","# code
+ @ i = 6 8 3 $ | 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ while s < 1 1 : 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ @ h = 3 2 6 $ i ? 6 8 3 | 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ while s < 1 1 : 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ @ if 9 1 == i : $ i ? 6 8 3 ; h ? 3 2 6 | 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ while s < 1 1 : 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ @ k = 1 $ i ? 6 8 3 ; h ? 3 2 6 | 
+ s = 1 0 
+ r = i 
+ while s < 1 1 : 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ @ s = 1 0 $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 | 
+ r = i 
+ while s < 1 1 : 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ @ r = i $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 ; s ? 1 0 | 
+ while s < 1 1 : 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ @ while s < 1 1 : $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 ; s ? 1 0 ; r ? 6 8 3 | 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ while s < 1 1 : 
+ @ 	 s = s + k $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 ; s ? 1 0 ; r ? 6 8 3 | 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ @ while s < 1 1 : $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 ; s ? 1 1 ; r ? 6 8 3 | 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ while s < 1 1 : 
+ 	 s = s + k 
+ @ print( s ) $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 ; s ? 1 1 ; r ? 6 8 3 | 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ while s < 1 1 : 
+ 	 s = s + k 
+ print( s ) 
+ @ ^ $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 ; s ? 1 1 ; r ? 6 8 3 | #  1 1","# code
+ @ i = 6 8 3 $ | 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ while s < 1 1 : 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ @ h = 3 2 6 $ i ? 6 8 3 | 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ while s < 1 1 : 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ @ if 9 1 == i : $ i ? 6 8 3 ; h ? 3 2 6 | 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ while s < 1 1 : 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ @ k = 1 $ i ? 6 8 3 ; h ? 3 2 6 | 
+ s = 1 0 
+ r = i 
+ while s < 1 1 : 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ @ s = 1 0 $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 | 
+ r = i 
+ while s < 1 1 : 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ @ r = i $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 ; s ? 1 0 | 
+ while s < 1 1 : 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ @ while s < 1 1 : $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 ; s ? 1 0 ; r ? 6 8 3 | 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ while s < 1 1 : 
+ @ 	 s = s + k $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 ; s ? 1 0 ; r ? 6 8 3 | 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ @ while s < 1 1 : $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 ; s ? 1 1 ; r ? 6 8 3 | 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ while s < 1 1 : 
+ @ 	 s = s + k $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 ; s ? 1 1 ; r ? 6 8 3 | 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 2 6 
+ if 9 1 == i : 
+ 	 i = i 
+ 	 s = 1 8 4 + 8 7 2 
+ 	 l = 7 5 6 
+ k = 1 
+ s = 1 0 
+ r = i 
+ @ while s < 1 1 : $ i ? 6 8 3 ; h ? 3 2 6 ; k ? 1 ; s ? 1 2 ; r ? 6 8 3 | 
+ 	 s = s + k 
+ print( s ) 
+#STEP
+ # code
+ i = 6 8 3 
+ h = 3 @"
+20,"# code
+u = 264
+q = 134
+e = 576
+if 39 != 817:
+	o = 793 + q
+	w = o
+	l = 668
+print(q)
+#STEP
+","# code
+ @ u = 2 6 4 $ | 
+ q = 1 3 4 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ 	 l = 6 6 8 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ @ q = 1 3 4 $ u ? 2 6 4 | 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ 	 l = 6 6 8 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ @ e = 5 7 6 $ u ? 2 6 4 ; q ? 1 3 4 | 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ 	 l = 6 6 8 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ e = 5 7 6 
+ @ if 3 9 != 8 1 7 : $ u ? 2 6 4 ; q ? 1 3 4 ; e ? 5 7 6 | 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ 	 l = 6 6 8 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ @ 	 o = 7 9 3 + q $ u ? 2 6 4 ; q ? 1 3 4 ; e ? 5 7 6 | 
+ 	 w = o 
+ 	 l = 6 6 8 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ @ 	 w = o $ u ? 2 6 4 ; q ? 1 3 4 ; e ? 5 7 6 ; o ? 9 2 7 | 
+ 	 l = 6 6 8 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ @ 	 l = 6 6 8 $ u ? 2 6 4 ; q ? 1 3 4 ; e ? 5 7 6 ; o ? 9 2 7 ; w ? 9 2 7 | 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ 	 l = 6 6 8 
+ @ print( q ) $ u ? 2 6 4 ; q ? 1 3 4 ; e ? 5 7 6 ; o ? 9 2 7 ; w ? 9 2 7 ; l ? 6 6 8 | 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ 	 l = 6 6 8 
+ print( q ) 
+ @ ^ $ u ? 2 6 4 ; q ? 1 3 4 ; e ? 5 7 6 ; o ? 9 2 7 ; w ? 9 2 7 ; l ? 6 6 8 | #  1 3 4","# code
+ @ u = 2 6 4 $ | 
+ q = 1 3 4 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ 	 l = 6 6 8 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ @ q = 1 3 4 $ u ? 2 6 4 | 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ 	 l = 6 6 8 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ @ e = 5 7 6 $ u ? 2 6 4 ; q ? 1 3 4 | 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ 	 l = 6 6 8 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ e = 5 7 6 
+ @ if 3 9 != 8 1 7 : $ u ? 2 6 4 ; q ? 1 3 4 ; e ? 5 7 6 | 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ 	 l = 6 6 8 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ @ 	 o = 7 9 3 + q $ u ? 2 6 4 ; q ? 1 3 4 ; e ? 5 7 6 | 
+ 	 w = o 
+ 	 l = 6 6 8 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ @ 	 w = o $ u ? 2 6 4 ; q ? 1 3 4 ; e ? 5 7 6 ; o ? 8 2 7 | 
+ 	 l = 6 6 8 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ @ 	 l = 6 6 8 $ u ? 2 6 4 ; q ? 1 3 4 ; e ? 5 7 6 ; o ? 8 2 7 ; w ? 8 2 7 | 
+ print( q ) 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ 	 l = 6 6 8 
+ @ print( q ) $ u ? 2 6 4 ; q ? 1 3 4 ; e ? 5 7 6 ; o ? 8 2 7 ; w ? 8 2 7 ; l ? 6 6 8 | 
+#STEP
+ # code
+ u = 2 6 4 
+ q = 1 3 4 
+ e = 5 7 6 
+ if 3 9 != 8 1 7 : 
+ 	 o = 7 9 3 + q 
+ 	 w = o 
+ 	 l = 6 6 8 
+ print( q ) 
+ @ ^ $ u ? 2 6 4 ; q ? 1 3 4 ; e ? 5 7 6 ; o ? 8 2 7 ; w ? 8 2 7 ; l ? 6 6 8 | #  1 3 4@"
+21,"# code
+p = 115
+p = 720
+y = 17
+d = y
+q = 685
+while p > q:
+	c = d
+	m = q + y
+	g = 18
+	q = m
+print(c)
+#STEP
+","# code
+ @ p = 1 1 5 $ | 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ @ p = 7 2 0 $ p ? 1 1 5 | 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ @ y = 1 7 $ p ? 7 2 0 | 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ @ d = y $ p ? 7 2 0 ; y ? 1 7 | 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ @ q = 6 8 5 $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 | 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ @ while p > q : $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 6 8 5 | 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ @ 	 c = d $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 6 8 5 | 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ @ 	 m = q + y $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 6 8 5 ; c ? 1 7 | 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ @ 	 g = 1 8 $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 6 8 5 ; c ? 1 7 ; m ? 7 0 2 | 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ @ 	 q = m $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 6 8 5 ; c ? 1 7 ; m ? 7 0 2 ; g ? 1 8 | 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ @ while p > q : $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 7 0 2 ; c ? 1 7 ; m ? 7 0 2 ; g ? 1 8 | 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ @ 	 c = d $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 7 0 2 ; c ? 1 7 ; m ? 7 0 2 ; g ? 1 8 | 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ @ 	 m = q + y $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 7 0 2 ; c ? 1 7 ; m ? 7 0 2 ; g ? 1 8 | 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ @ 	 g = 1 8 $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 7 0 2 ; c ? 1 7 ; m ? 7 1 9 ; g ? 1 8 | 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ @ 	 q = m $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 7 0 2 ; c ? 1 7 ; m ? 7 1 9 ; g ? 1 8 | 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ @ while p > q : $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 7 1 9 ; c ? 1 7 ; m ? 7 1 9 ; g ? 1 8 | 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ @ 	 c = d $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 7 1 9 ; c ? 1 7 ; m ? 7 1 9 ; g ? 1 8 | 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ @ 	 m = q + y $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 7 1 9 ; c ? 1 7 ; m ? 7 1 9 ; g ? 1 8 | 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ @ 	 g = 1 8 $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 7 1 9 ; c ? 1 7 ; m ? 7 3 6 ; g ? 1 8 | 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ @ 	 q = m $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 7 1 9 ; c ? 1 7 ; m ? 7 3 6 ; g ? 1 8 | 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ @ while p > q : $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 7 3 6 ; c ? 1 7 ; m ? 7 3 6 ; g ? 1 8 | 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ @ print( c ) $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 7 3 6 ; c ? 1 7 ; m ? 7 3 6 ; g ? 1 8 | 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+ @ ^ $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 7 3 6 ; c ? 1 7 ; m ? 7 3 6 ; g ? 1 8 | #  1 7","# code
+ @ p = 1 1 5 $ | 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ @ p = 7 2 0 $ p ? 1 1 5 | 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ @ y = 1 7 $ p ? 7 2 0 | 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ @ d = y $ p ? 7 2 0 ; y ? 1 7 | 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ @ q = 6 8 5 $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 | 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ @ while p > q : $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 6 8 5 | 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ @ 	 c = d $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 6 8 5 | 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ @ 	 m = q + y $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 6 8 5 ; c ? 1 7 | 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ @ 	 g = 1 8 $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 6 8 5 ; c ? 1 7 ; m ? 6 5 2 | 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ @ 	 q = m $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 6 8 5 ; c ? 1 7 ; m ? 6 5 2 ; g ? 1 8 | 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ @ while p > q : $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 6 5 2 ; c ? 1 7 ; m ? 6 5 2 ; g ? 1 8 | 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ @ print( c ) $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 6 5 2 ; c ? 1 7 ; m ? 6 5 2 ; g ? 1 8 | 
+#STEP
+ # code
+ p = 1 1 5 
+ p = 7 2 0 
+ y = 1 7 
+ d = y 
+ q = 6 8 5 
+ while p > q : 
+ 	 c = d 
+ 	 m = q + y 
+ 	 g = 1 8 
+ 	 q = m 
+ print( c ) 
+ @ ^ $ p ? 7 2 0 ; y ? 1 7 ; d ? 1 7 ; q ? 6 5 2 ; c ? 1 7 ; m ? 6 5 2 ; g ? 1 8 | #  1 7@"
+22,"# code
+o = 36
+while o < 65:
+	q = 616
+	r = o + 10
+	o = o + 15
+if r != r:
+	h = o
+print(r)
+#STEP
+","# code
+ @ o = 3 6 $ | 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ @ while o < 6 5 : $ o ? 3 6 | 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ @ 	 q = 6 1 6 $ o ? 3 6 | 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ @ 	 r = o + 1 0 $ o ? 3 6 ; q ? 6 1 6 | 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ @ 	 o = o + 1 5 $ o ? 3 6 ; q ? 6 1 6 ; r ? 4 6 | 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ @ while o < 6 5 : $ o ? 5 1 ; q ? 6 1 6 ; r ? 4 6 | 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ @ 	 q = 6 1 6 $ o ? 5 1 ; q ? 6 1 6 ; r ? 4 6 | 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ @ 	 r = o + 1 0 $ o ? 5 1 ; q ? 6 1 6 ; r ? 4 6 | 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ @ 	 o = o + 1 5 $ o ? 5 1 ; q ? 6 1 6 ; r ? 6 1 | 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ @ while o < 6 5 : $ o ? 6 6 ; q ? 6 1 6 ; r ? 6 1 | 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ @ if r != r : $ o ? 6 6 ; q ? 6 1 6 ; r ? 6 1 | 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ @ print( r ) $ o ? 6 6 ; q ? 6 1 6 ; r ? 6 1 | 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+ @ ^ $ o ? 6 6 ; q ? 6 1 6 ; r ? 6 1 | #  6 1","# code
+ @ o = 3 6 $ | 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ @ while o < 6 5 : $ o ? 3 6 | 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ @ 	 q = 6 1 6 $ o ? 3 6 | 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ @ 	 r = o + 1 0 $ o ? 3 6 ; q ? 6 1 6 | 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ @ 	 o = o + 1 5 $ o ? 3 6 ; q ? 6 1 6 ; r ? 4 6 | 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ @ while o < 6 5 : $ o ? 4 6 ; q ? 6 1 6 ; r ? 4 6 | 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ @ 	 q = 6 1 6 $ o ? 4 6 ; q ? 6 1 6 ; r ? 4 6 | 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ @ 	 r = o + 1 0 $ o ? 4 6 ; q ? 6 1 6 ; r ? 4 6 | 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ @ 	 o = o + 1 5 $ o ? 4 6 ; q ? 6 1 6 ; r ? 6 6 | 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ @ while o < 6 5 : $ o ? 5 6 ; q ? 6 1 6 ; r ? 6 6 | 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ @ 	 q = 6 1 6 $ o ? 5 6 ; q ? 6 1 6 ; r ? 6 6 | 
+ 	 r = o + 1 0 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ @ 	 r = o + 1 0 $ o ? 5 6 ; q ? 6 1 6 ; r ? 6 6 | 
+ 	 o = o + 1 5 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ while o < 6 5 : 
+ 	 q = 6 1 6 
+ 	 r = o + 1 0 
+ @ 	 o = o + 1 5 $ o ? 5 6 ; q ? 6 1 6 ; r ? 7 6 | 
+ if r != r : 
+ 	 h = o 
+ print( r ) 
+#STEP
+ # code
+ o = 3 6 
+ @ while o < @"
+23,"# code
+m = 395
+v = 9
+while 414 > m:
+	l = m + v
+	x = v + 652
+	m = l
+	i = x
+print(v)
+#STEP
+","# code
+ @ m = 3 9 5 $ | 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ @ v = 9 $ m ? 3 9 5 | 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ @ while 4 1 4 > m : $ m ? 3 9 5 ; v ? 9 | 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ @ 	 l = m + v $ m ? 3 9 5 ; v ? 9 | 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ @ 	 x = v + 6 5 2 $ m ? 3 9 5 ; v ? 9 ; l ? 4 0 4 | 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ @ 	 m = l $ m ? 3 9 5 ; v ? 9 ; l ? 4 0 4 ; x ? 6 6 1 | 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ @ 	 i = x $ m ? 4 0 4 ; v ? 9 ; l ? 4 0 4 ; x ? 6 6 1 | 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ @ while 4 1 4 > m : $ m ? 4 0 4 ; v ? 9 ; l ? 4 0 4 ; x ? 6 6 1 ; i ? 6 6 1 | 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ @ 	 l = m + v $ m ? 4 0 4 ; v ? 9 ; l ? 4 0 4 ; x ? 6 6 1 ; i ? 6 6 1 | 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ @ 	 x = v + 6 5 2 $ m ? 4 0 4 ; v ? 9 ; l ? 4 1 3 ; x ? 6 6 1 ; i ? 6 6 1 | 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ @ 	 m = l $ m ? 4 0 4 ; v ? 9 ; l ? 4 1 3 ; x ? 6 6 1 ; i ? 6 6 1 | 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ @ 	 i = x $ m ? 4 1 3 ; v ? 9 ; l ? 4 1 3 ; x ? 6 6 1 ; i ? 6 6 1 | 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ @ while 4 1 4 > m : $ m ? 4 1 3 ; v ? 9 ; l ? 4 1 3 ; x ? 6 6 1 ; i ? 6 6 1 | 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ @ 	 l = m + v $ m ? 4 1 3 ; v ? 9 ; l ? 4 1 3 ; x ? 6 6 1 ; i ? 6 6 1 | 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ @ 	 x = v + 6 5 2 $ m ? 4 1 3 ; v ? 9 ; l ? 4 2 2 ; x ? 6 6 1 ; i ? 6 6 1 | 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ @ 	 m = l $ m ? 4 1 3 ; v ? 9 ; l ? 4 2 2 ; x ? 6 6 1 ; i ? 6 6 1 | 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ @ 	 i = x $ m ? 4 2 2 ; v ? 9 ; l ? 4 2 2 ; x ? 6 6 1 ; i ? 6 6 1 | 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ @ while 4 1 4 > m : $ m ? 4 2 2 ; v ? 9 ; l ? 4 2 2 ; x ? 6 6 1 ; i ? 6 6 1 | 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ @ print( v ) $ m ? 4 2 2 ; v ? 9 ; l ? 4 2 2 ; x ? 6 6 1 ; i ? 6 6 1 | 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+ @ ^ $ m ? 4 2 2 ; v ? 9 ; l ? 4 2 2 ; x ? 6 6 1 ; i ? 6 6 1 | #  9","# code
+ @ m = 3 9 5 $ | 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ @ v = 9 $ m ? 3 9 5 | 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ @ while 4 1 4 > m : $ m ? 3 9 5 ; v ? 9 | 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ @ 	 l = m + v $ m ? 3 9 5 ; v ? 9 | 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ @ 	 x = v + 6 5 2 $ m ? 3 9 5 ; v ? 9 ; l ? 4 0 4 | 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ @ 	 m = l $ m ? 3 9 5 ; v ? 9 ; l ? 4 0 4 ; x ? 6 6 1 | 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ @ 	 i = x $ m ? 4 0 4 ; v ? 9 ; l ? 4 0 4 ; x ? 6 6 1 | 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ @ while 4 1 4 > m : $ m ? 4 0 4 ; v ? 9 ; l ? 4 0 4 ; x ? 6 6 1 ; i ? 6 6 1 | 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ @ print( v ) $ m ? 4 0 4 ; v ? 9 ; l ? 4 0 4 ; x ? 6 6 1 ; i ? 6 6 1 | 
+#STEP
+ # code
+ m = 3 9 5 
+ v = 9 
+ while 4 1 4 > m : 
+ 	 l = m + v 
+ 	 x = v + 6 5 2 
+ 	 m = l 
+ 	 i = x 
+ print( v ) 
+ @ ^ $ m ? 4 0 4 ; v ? 9 ; l ? 4 0 4 ; x ? 6 6 1 ; i ? 6 6 1 | #  9@"
+24,"# code
+b = 439
+o = b + b
+r = 447
+d = 378
+q = 768
+w = 410
+while w > d:
+	d = d + 16
+print(b)
+#STEP
+","# code
+ @ b = 4 3 9 $ | 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ @ o = b + b $ b ? 4 3 9 | 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ @ r = 4 4 7 $ b ? 4 3 9 ; o ? 8 7 8 | 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ @ d = 3 7 8 $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 | 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ @ q = 7 6 8 $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 3 7 8 | 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ @ w = 4 1 0 $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 3 7 8 ; q ? 7 6 8 | 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ @ while w > d : $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 3 7 8 ; q ? 7 6 8 ; w ? 4 1 0 | 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ @ 	 d = d + 1 6 $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 3 7 8 ; q ? 7 6 8 ; w ? 4 1 0 | 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ @ while w > d : $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 3 9 4 ; q ? 7 6 8 ; w ? 4 1 0 | 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ @ 	 d = d + 1 6 $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 3 9 4 ; q ? 7 6 8 ; w ? 4 1 0 | 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ @ while w > d : $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 4 1 0 ; q ? 7 6 8 ; w ? 4 1 0 | 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ @ print( b ) $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 4 1 0 ; q ? 7 6 8 ; w ? 4 1 0 | 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+ @ ^ $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 4 1 0 ; q ? 7 6 8 ; w ? 4 1 0 | #  4 3 9","# code
+ @ b = 4 3 9 $ | 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ @ o = b + b $ b ? 4 3 9 | 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ @ r = 4 4 7 $ b ? 4 3 9 ; o ? 8 7 8 | 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ @ d = 3 7 8 $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 | 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ @ q = 7 6 8 $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 3 7 8 | 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ @ w = 4 1 0 $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 3 7 8 ; q ? 7 6 8 | 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ @ while w > d : $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 3 7 8 ; q ? 7 6 8 ; w ? 4 1 0 | 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ @ 	 d = d + 1 6 $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 3 7 8 ; q ? 7 6 8 ; w ? 4 1 0 | 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ @ while w > d : $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 3 9 4 ; q ? 7 6 8 ; w ? 4 1 0 | 
+ 	 d = d + 1 6 
+ print( b ) 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ @ print( b ) $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 3 9 4 ; q ? 7 6 8 ; w ? 4 1 0 | 
+#STEP
+ # code
+ b = 4 3 9 
+ o = b + b 
+ r = 4 4 7 
+ d = 3 7 8 
+ q = 7 6 8 
+ w = 4 1 0 
+ while w > d : 
+ 	 d = d + 1 6 
+ print( b ) 
+ @ ^ $ b ? 4 3 9 ; o ? 8 7 8 ; r ? 4 4 7 ; d ? 3 9 4 ; q ? 7 6 8 ; w ? 4 1 0 | #  4 3 9@"
+25,"# code
+e = 812
+r = 812
+while e < r:
+	z = 475
+	z = e + 1
+	g = 947
+	e = z
+print(r)
+#STEP
+","# code
+ @ e = 8 1 2 $ | 
+ r = 8 1 2 
+ while e < r : 
+ 	 z = 4 7 5 
+ 	 z = e + 1 
+ 	 g = 9 4 7 
+ 	 e = z 
+ print( r ) 
+#STEP
+ # code
+ e = 8 1 2 
+ @ r = 8 1 2 $ e ? 8 1 2 | 
+ while e < r : 
+ 	 z = 4 7 5 
+ 	 z = e + 1 
+ 	 g = 9 4 7 
+ 	 e = z 
+ print( r ) 
+#STEP
+ # code
+ e = 8 1 2 
+ r = 8 1 2 
+ @ while e < r : $ e ? 8 1 2 ; r ? 8 1 2 | 
+ 	 z = 4 7 5 
+ 	 z = e + 1 
+ 	 g = 9 4 7 
+ 	 e = z 
+ print( r ) 
+#STEP
+ # code
+ e = 8 1 2 
+ r = 8 1 2 
+ while e < r : 
+ 	 z = 4 7 5 
+ 	 z = e + 1 
+ 	 g = 9 4 7 
+ 	 e = z 
+ @ print( r ) $ e ? 8 1 2 ; r ? 8 1 2 | 
+#STEP
+ # code
+ e = 8 1 2 
+ r = 8 1 2 
+ while e < r : 
+ 	 z = 4 7 5 
+ 	 z = e + 1 
+ 	 g = 9 4 7 
+ 	 e = z 
+ print( r ) 
+ @ ^ $ e ? 8 1 2 ; r ? 8 1 2 | #  8 1 2","# code
+ @ e = 8 1 2 $ | 
+ r = 8 1 2 
+ while e < r : 
+ 	 z = 4 7 5 
+ 	 z = e + 1 
+ 	 g = 9 4 7 
+ 	 e = z 
+ print( r ) 
+#STEP
+ # code
+ e = 8 1 2 
+ @ r = 8 1 2 $ e ? 8 1 2 | 
+ while e < r : 
+ 	 z = 4 7 5 
+ 	 z = e + 1 
+ 	 g = 9 4 7 
+ 	 e = z 
+ print( r ) 
+#STEP
+ # code
+ e = 8 1 2 
+ r = 8 1 2 
+ @ while e < r : $ e ? 8 1 2 ; r ? 8 1 2 | 
+ 	 z = 4 7 5 
+ 	 z = e + 1 
+ 	 g = 9 4 7 
+ 	 e = z 
+ print( r ) 
+#STEP
+ # code
+ e = 8 1 2 
+ r = 8 1 2 
+ while e < r : 
+ @ 	 z = 4 7 5 $ e ? 8 1 2 ; r ? 8 1 2 | 
+ 	 z = e + 1 
+ 	 g = 9 4 7 
+ 	 e = z 
+ print( r ) 
+#STEP
+ # code
+ e = 8 1 2 
+ r = 8 1 2 
+ while e < r : 
+ 	 z = 4 7 5 
+ @ 	 z = e + 1 $ e ? 8 1 2 ; r ? 8 1 2 ; z ? 4 7 5 | 
+ 	 g = 9 4 7 
+ 	 e = z 
+ print( r ) 
+#STEP
+ # code
+ e = 8 1 @"
+26,"# code
+h = 659
+y = 92
+k = 5
+v = 421
+c = v
+while 432 > v:
+	g = 797
+	a = v + k
+	e = c + y
+	v = a
+print(c)
+#STEP
+","# code
+ @ h = 6 5 9 $ | 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ @ y = 9 2 $ h ? 6 5 9 | 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ @ k = 5 $ h ? 6 5 9 ; y ? 9 2 | 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ @ v = 4 2 1 $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 | 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ @ c = v $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 1 | 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ @ while 4 3 2 > v : $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 1 ; c ? 4 2 1 | 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ @ 	 g = 7 9 7 $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 1 ; c ? 4 2 1 | 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ @ 	 a = v + k $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 1 ; c ? 4 2 1 ; g ? 7 9 7 | 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ @ 	 e = c + y $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 1 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 2 6 | 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ @ 	 v = a $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 1 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 2 6 ; e ? 5 1 3 | 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ @ while 4 3 2 > v : $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 6 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 2 6 ; e ? 5 1 3 | 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ @ 	 g = 7 9 7 $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 6 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 2 6 ; e ? 5 1 3 | 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ @ 	 a = v + k $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 6 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 2 6 ; e ? 5 1 3 | 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ @ 	 e = c + y $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 6 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 3 1 ; e ? 5 1 3 | 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ @ 	 v = a $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 6 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 3 1 ; e ? 5 1 3 | 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ @ while 4 3 2 > v : $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 3 1 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 3 1 ; e ? 5 1 3 | 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ @ 	 g = 7 9 7 $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 3 1 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 3 1 ; e ? 5 1 3 | 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ @ 	 a = v + k $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 3 1 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 3 1 ; e ? 5 1 3 | 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ @ 	 e = c + y $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 3 1 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 3 6 ; e ? 5 1 3 | 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ @ 	 v = a $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 3 1 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 3 6 ; e ? 5 1 3 | 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ @ while 4 3 2 > v : $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 3 6 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 3 6 ; e ? 5 1 3 | 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ @ print( c ) $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 3 6 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 3 6 ; e ? 5 1 3 | 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+ @ ^ $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 3 6 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 3 6 ; e ? 5 1 3 | #  4 2 1","# code
+ @ h = 6 5 9 $ | 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ @ y = 9 2 $ h ? 6 5 9 | 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ @ k = 5 $ h ? 6 5 9 ; y ? 9 2 | 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ @ v = 4 2 1 $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 | 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ @ c = v $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 1 | 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ @ while 4 3 2 > v : $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 1 ; c ? 4 2 1 | 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ @ 	 g = 7 9 7 $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 1 ; c ? 4 2 1 | 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ @ 	 a = v + k $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 1 ; c ? 4 2 1 ; g ? 7 9 7 | 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ @ 	 e = c + y $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 1 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 2 6 | 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ @ 	 v = a $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 1 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 2 6 ; e ? 4 4 2 | 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ @ while 4 3 2 > v : $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 6 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 2 6 ; e ? 4 4 2 | 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ @ print( c ) $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 6 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 2 6 ; e ? 4 4 2 | 
+#STEP
+ # code
+ h = 6 5 9 
+ y = 9 2 
+ k = 5 
+ v = 4 2 1 
+ c = v 
+ while 4 3 2 > v : 
+ 	 g = 7 9 7 
+ 	 a = v + k 
+ 	 e = c + y 
+ 	 v = a 
+ print( c ) 
+ @ ^ $ h ? 6 5 9 ; y ? 9 2 ; k ? 5 ; v ? 4 2 6 ; c ? 4 2 1 ; g ? 7 9 7 ; a ? 4 2 6 ; e ? 4 4 2 | #  4 2 1@"
+27,"# code
+f = 950
+b = f
+while 950 > f:
+	g = 578
+	g = 59 + b
+	c = b
+	q = 797
+	s = f + 1
+	o = b + 254
+	f = s
+print(f)
+#STEP
+","# code
+ @ f = 9 5 0 $ | 
+ b = f 
+ while 9 5 0 > f : 
+ 	 g = 5 7 8 
+ 	 g = 5 9 + b 
+ 	 c = b 
+ 	 q = 7 9 7 
+ 	 s = f + 1 
+ 	 o = b + 2 5 4 
+ 	 f = s 
+ print( f ) 
+#STEP
+ # code
+ f = 9 5 0 
+ @ b = f $ f ? 9 5 0 | 
+ while 9 5 0 > f : 
+ 	 g = 5 7 8 
+ 	 g = 5 9 + b 
+ 	 c = b 
+ 	 q = 7 9 7 
+ 	 s = f + 1 
+ 	 o = b + 2 5 4 
+ 	 f = s 
+ print( f ) 
+#STEP
+ # code
+ f = 9 5 0 
+ b = f 
+ @ while 9 5 0 > f : $ f ? 9 5 0 ; b ? 9 5 0 | 
+ 	 g = 5 7 8 
+ 	 g = 5 9 + b 
+ 	 c = b 
+ 	 q = 7 9 7 
+ 	 s = f + 1 
+ 	 o = b + 2 5 4 
+ 	 f = s 
+ print( f ) 
+#STEP
+ # code
+ f = 9 5 0 
+ b = f 
+ while 9 5 0 > f : 
+ 	 g = 5 7 8 
+ 	 g = 5 9 + b 
+ 	 c = b 
+ 	 q = 7 9 7 
+ 	 s = f + 1 
+ 	 o = b + 2 5 4 
+ 	 f = s 
+ @ print( f ) $ f ? 9 5 0 ; b ? 9 5 0 | 
+#STEP
+ # code
+ f = 9 5 0 
+ b = f 
+ while 9 5 0 > f : 
+ 	 g = 5 7 8 
+ 	 g = 5 9 + b 
+ 	 c = b 
+ 	 q = 7 9 7 
+ 	 s = f + 1 
+ 	 o = b + 2 5 4 
+ 	 f = s 
+ print( f ) 
+ @ ^ $ f ? 9 5 0 ; b ? 9 5 0 | #  9 5 0","# code
+ @ f = 9 5 0 $ | 
+ b = f 
+ while 9 5 0 > f : 
+ 	 g = 5 7 8 
+ 	 g = 5 9 + b 
+ 	 c = b 
+ 	 q = 7 9 7 
+ 	 s = f + 1 
+ 	 o = b + 2 5 4 
+ 	 f = s 
+ print( f ) 
+#STEP
+ # code
+ f = 9 5 0 
+ @ b = f $ f ? 9 5 0 | 
+ while 9 5 0 > f : 
+ 	 g = 5 7 8 
+ 	 g = 5 9 + b 
+ 	 c = b 
+ 	 q = 7 9 7 
+ 	 s = f + 1 
+ 	 o = b + 2 5 4 
+ 	 f = s 
+ print( f ) 
+#STEP
+ # code
+ f = 9 5 0 
+ b = f 
+ @ while 9 5 0 > f : $ f ? 9 5 0 ; b ? 9 5 0 | 
+ 	 g = 5 7 8 
+ 	 g = 5 9 + b 
+ 	 c = b 
+ 	 q = 7 9 7 
+ 	 s = f + 1 
+ 	 o = b + 2 5 4 
+ 	 f = s 
+ print( f ) 
+#STEP
+ # code
+ f = 9 5 0 
+ b = f 
+ while 9 5 0 > f : 
+ @ 	 g = 5 7 8 $ f ? 9 5 0 ; b ? 9 5 0 | 
+ 	 g = 5 9 + b 
+ 	 c = b 
+ 	 q = 7 9 7 
+ 	 s = f + 1 
+ 	 o = b + 2 5 4 
+ 	 f = s 
+ print( f ) 
+#STEP
+ # code
+ f = 9 5 0 
+ b = f 
+ while 9 5 0 > f : 
+ 	 g = 5 7 8 
+ @ 	 g = 5 9 + b $ f ? 9 5 0 ; b ? 9 5 0 ; g ? 5 7 8 | 
+ 	 c = b 
+ 	 q = 7 9 7 
+ 	 s = f + 1 
+ 	 o = b + 2 5 4 
+ 	 f = s 
+ print( f ) 
+#STEP
+ # code
+ f = 9 5 @"
+28,"# code
+u = 143
+h = 59
+j = h
+v = 68
+a = 18
+c = 116
+x = a + v
+while v < c:
+	v = v + a
+print(v)
+#STEP
+","# code
+ @ u = 1 4 3 $ | 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ @ h = 5 9 $ u ? 1 4 3 | 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ @ j = h $ u ? 1 4 3 ; h ? 5 9 | 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ @ v = 6 8 $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 | 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ @ a = 1 8 $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 6 8 | 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ @ c = 1 1 6 $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 6 8 ; a ? 1 8 | 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ @ x = a + v $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 6 8 ; a ? 1 8 ; c ? 1 1 6 | 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ @ while v < c : $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 6 8 ; a ? 1 8 ; c ? 1 1 6 ; x ? 8 6 | 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ @ 	 v = v + a $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 6 8 ; a ? 1 8 ; c ? 1 1 6 ; x ? 8 6 | 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ @ while v < c : $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 8 6 ; a ? 1 8 ; c ? 1 1 6 ; x ? 8 6 | 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ @ 	 v = v + a $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 8 6 ; a ? 1 8 ; c ? 1 1 6 ; x ? 8 6 | 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ @ while v < c : $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 1 0 4 ; a ? 1 8 ; c ? 1 1 6 ; x ? 8 6 | 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ @ 	 v = v + a $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 1 0 4 ; a ? 1 8 ; c ? 1 1 6 ; x ? 8 6 | 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ @ while v < c : $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 1 2 2 ; a ? 1 8 ; c ? 1 1 6 ; x ? 8 6 | 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ @ print( v ) $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 1 2 2 ; a ? 1 8 ; c ? 1 1 6 ; x ? 8 6 | 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+ @ ^ $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 1 2 2 ; a ? 1 8 ; c ? 1 1 6 ; x ? 8 6 | #  1 2 2","# code
+ @ u = 1 4 3 $ | 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ @ h = 5 9 $ u ? 1 4 3 | 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ @ j = h $ u ? 1 4 3 ; h ? 5 9 | 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ @ v = 6 8 $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 | 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ @ a = 1 8 $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 6 8 | 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ @ c = 1 1 6 $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 6 8 ; a ? 1 8 | 
+ x = a + v 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ @ x = a + v $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 6 8 ; a ? 1 8 ; c ? 1 1 6 | 
+ while v < c : 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ @ while v < c : $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 6 8 ; a ? 1 8 ; c ? 1 1 6 ; x ? 7 6 | 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ @ 	 v = v + a $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 6 8 ; a ? 1 8 ; c ? 1 1 6 ; x ? 7 6 | 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ @ while v < c : $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 8 6 ; a ? 1 8 ; c ? 1 1 6 ; x ? 7 6 | 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ @ 	 v = v + a $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 8 6 ; a ? 1 8 ; c ? 1 1 6 ; x ? 7 6 | 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ @ while v < c : $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 1 0 4 ; a ? 1 8 ; c ? 1 1 6 ; x ? 7 6 | 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ @ 	 v = v + a $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 1 0 4 ; a ? 1 8 ; c ? 1 1 6 ; x ? 7 6 | 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ @ while v < c : $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 1 2 2 ; a ? 1 8 ; c ? 1 1 6 ; x ? 7 6 | 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ while v < c : 
+ @ 	 v = v + a $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 1 2 2 ; a ? 1 8 ; c ? 1 1 6 ; x ? 7 6 | 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 
+ j = h 
+ v = 6 8 
+ a = 1 8 
+ c = 1 1 6 
+ x = a + v 
+ @ while v < c : $ u ? 1 4 3 ; h ? 5 9 ; j ? 5 9 ; v ? 1 3 0 ; a ? 1 8 ; c ? 1 1 6 ; x ? 7 6 | 
+ 	 v = v + a 
+ print( v ) 
+#STEP
+ # code
+ u = 1 4 3 
+ h = 5 9 @"
+29,"# code
+y = 619
+if 589 > 487:
+	h = 93 + 9
+	q = 516 + h
+	h = 255
+	q = 686 + h
+	f = q
+print(h)
+#STEP
+","# code
+ @ y = 6 1 9 $ | 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ @ if 5 8 9 > 4 8 7 : $ y ? 6 1 9 | 
+ 	 h = 9 3 + 9 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ @ 	 h = 9 3 + 9 $ y ? 6 1 9 | 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 
+ @ 	 q = 5 1 6 + h $ y ? 6 1 9 ; h ? 1 0 2 | 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 
+ 	 q = 5 1 6 + h 
+ @ 	 h = 2 5 5 $ y ? 6 1 9 ; h ? 1 0 2 ; q ? 6 1 8 | 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ @ 	 q = 6 8 6 + h $ y ? 6 1 9 ; h ? 2 5 5 ; q ? 6 1 8 | 
+ 	 f = q 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ @ 	 f = q $ y ? 6 1 9 ; h ? 2 5 5 ; q ? 9 4 1 | 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ @ print( h ) $ y ? 6 1 9 ; h ? 2 5 5 ; q ? 9 4 1 ; f ? 9 4 1 | 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ print( h ) 
+ @ ^ $ y ? 6 1 9 ; h ? 2 5 5 ; q ? 9 4 1 ; f ? 9 4 1 | #  2 5 5","# code
+ @ y = 6 1 9 $ | 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ @ if 5 8 9 > 4 8 7 : $ y ? 6 1 9 | 
+ 	 h = 9 3 + 9 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ @ 	 h = 9 3 + 9 3 $ y ? 6 1 9 | 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 3 
+ @ 	 q = 5 1 6 + h $ y ? 6 1 9 ; h ? 1 8 6 | 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 3 
+ 	 q = 5 1 6 + h 
+ @ 	 h = 2 5 5 $ y ? 6 1 9 ; h ? 1 8 6 ; q ? 7 7 2 | 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 3 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ @ 	 q = 6 8 6 + h $ y ? 6 1 9 ; h ? 2 5 5 ; q ? 7 7 2 | 
+ 	 f = q 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 3 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ @ 	 f = q $ y ? 6 1 9 ; h ? 2 5 5 ; q ? 9 4 1 | 
+ print( h ) 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 3 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ @ print( h ) $ y ? 6 1 9 ; h ? 2 5 5 ; q ? 9 4 1 ; f ? 9 4 1 | 
+#STEP
+ # code
+ y = 6 1 9 
+ if 5 8 9 > 4 8 7 : 
+ 	 h = 9 3 + 9 3 
+ 	 q = 5 1 6 + h 
+ 	 h = 2 5 5 
+ 	 q = 6 8 6 + h 
+ 	 f = q 
+ print( h ) 
+ @ ^ $ y ? 6 1 9 ; h ? 2 5 5 ; q ? 9 4 1 ; f ? 9 4 1 | #  2 5 @"
+30,"# code
+g = 246
+e = 286
+v = 16
+while e > g:
+	m = g + v
+	h = e
+	g = m
+print(v)
+#STEP
+","# code
+ @ g = 2 4 6 $ | 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ @ e = 2 8 6 $ g ? 2 4 6 | 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ @ v = 1 6 $ g ? 2 4 6 ; e ? 2 8 6 | 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ @ while e > g : $ g ? 2 4 6 ; e ? 2 8 6 ; v ? 1 6 | 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ @ 	 m = g + v $ g ? 2 4 6 ; e ? 2 8 6 ; v ? 1 6 | 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ @ 	 h = e $ g ? 2 4 6 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 6 2 | 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ @ 	 g = m $ g ? 2 4 6 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 6 2 ; h ? 2 8 6 | 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ @ while e > g : $ g ? 2 6 2 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 6 2 ; h ? 2 8 6 | 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ @ 	 m = g + v $ g ? 2 6 2 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 6 2 ; h ? 2 8 6 | 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ @ 	 h = e $ g ? 2 6 2 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 7 8 ; h ? 2 8 6 | 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ @ 	 g = m $ g ? 2 6 2 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 7 8 ; h ? 2 8 6 | 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ @ while e > g : $ g ? 2 7 8 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 7 8 ; h ? 2 8 6 | 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ @ 	 m = g + v $ g ? 2 7 8 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 7 8 ; h ? 2 8 6 | 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ @ 	 h = e $ g ? 2 7 8 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 9 4 ; h ? 2 8 6 | 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ @ 	 g = m $ g ? 2 7 8 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 9 4 ; h ? 2 8 6 | 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ @ while e > g : $ g ? 2 9 4 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 9 4 ; h ? 2 8 6 | 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ @ print( v ) $ g ? 2 9 4 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 9 4 ; h ? 2 8 6 | 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+ @ ^ $ g ? 2 9 4 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 9 4 ; h ? 2 8 6 | #  1 6","# code
+ @ g = 2 4 6 $ | 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ @ e = 2 8 6 $ g ? 2 4 6 | 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ @ v = 1 6 $ g ? 2 4 6 ; e ? 2 8 6 | 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ @ while e > g : $ g ? 2 4 6 ; e ? 2 8 6 ; v ? 1 6 | 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ @ 	 m = g + v $ g ? 2 4 6 ; e ? 2 8 6 ; v ? 1 6 | 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ @ 	 h = e $ g ? 2 4 6 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 9 2 | 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ @ 	 g = m $ g ? 2 4 6 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 9 2 ; h ? 2 8 6 | 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ @ while e > g : $ g ? 2 9 2 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 9 2 ; h ? 2 8 6 | 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ @ print( v ) $ g ? 2 9 2 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 9 2 ; h ? 2 8 6 | 
+#STEP
+ # code
+ g = 2 4 6 
+ e = 2 8 6 
+ v = 1 6 
+ while e > g : 
+ 	 m = g + v 
+ 	 h = e 
+ 	 g = m 
+ print( v ) 
+ @ ^ $ g ? 2 9 2 ; e ? 2 8 6 ; v ? 1 6 ; m ? 2 9 2 ; h ? 2 8 6 | #  1 6@"
+31,"# code
+j = 204
+while j > 207:
+	j = j + 16
+if j != 203:
+	z = 537 + j
+	l = j
+	e = z + 25
+print(l)
+#STEP
+","# code
+ @ j = 2 0 4 $ | 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ 	 z = 5 3 7 + j 
+ 	 l = j 
+ 	 e = z + 2 5 
+ print( l ) 
+#STEP
+ # code
+ j = 2 0 4 
+ @ while j > 2 0 7 : $ j ? 2 0 4 | 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ 	 z = 5 3 7 + j 
+ 	 l = j 
+ 	 e = z + 2 5 
+ print( l ) 
+#STEP
+ # code
+ j = 2 0 4 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ @ if j != 2 0 3 : $ j ? 2 0 4 | 
+ 	 z = 5 3 7 + j 
+ 	 l = j 
+ 	 e = z + 2 5 
+ print( l ) 
+#STEP
+ # code
+ j = 2 0 4 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ @ 	 z = 5 3 7 + j $ j ? 2 0 4 | 
+ 	 l = j 
+ 	 e = z + 2 5 
+ print( l ) 
+#STEP
+ # code
+ j = 2 0 4 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ 	 z = 5 3 7 + j 
+ @ 	 l = j $ j ? 2 0 4 ; z ? 7 4 1 | 
+ 	 e = z + 2 5 
+ print( l ) 
+#STEP
+ # code
+ j = 2 0 4 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ 	 z = 5 3 7 + j 
+ 	 l = j 
+ @ 	 e = z + 2 5 $ j ? 2 0 4 ; z ? 7 4 1 ; l ? 2 0 4 | 
+ print( l ) 
+#STEP
+ # code
+ j = 2 0 4 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ 	 z = 5 3 7 + j 
+ 	 l = j 
+ 	 e = z + 2 5 
+ @ print( l ) $ j ? 2 0 4 ; z ? 7 4 1 ; l ? 2 0 4 ; e ? 7 6 6 | 
+#STEP
+ # code
+ j = 2 0 4 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ 	 z = 5 3 7 + j 
+ 	 l = j 
+ 	 e = z + 2 5 
+ print( l ) 
+ @ ^ $ j ? 2 0 4 ; z ? 7 4 1 ; l ? 2 0 4 ; e ? 7 6 6 | #  2 0 4","# code
+ @ j = 2 0 4 $ | 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ 	 z = 5 3 7 + j 
+ 	 l = j 
+ 	 e = z + 2 5 
+ print( l ) 
+#STEP
+ # code
+ j = 2 0 4 
+ @ while j > 2 0 7 : $ j ? 2 0 4 | 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ 	 z = 5 3 7 + j 
+ 	 l = j 
+ 	 e = z + 2 5 
+ print( l ) 
+#STEP
+ # code
+ j = 2 0 4 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ @ if j != 2 0 3 : $ j ? 2 0 4 | 
+ 	 z = 5 3 7 + j 
+ 	 l = j 
+ 	 e = z + 2 5 
+ print( l ) 
+#STEP
+ # code
+ j = 2 0 4 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ @ 	 z = 5 3 7 + j $ j ? 2 0 4 | 
+ 	 l = j 
+ 	 e = z + 2 5 
+ print( l ) 
+#STEP
+ # code
+ j = 2 0 4 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ 	 z = 5 3 7 + j 
+ @ 	 l = j $ j ? 2 0 4 ; z ? 7 4 1 | 
+ 	 e = z + 2 5 
+ print( l ) 
+#STEP
+ # code
+ j = 2 0 4 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ 	 z = 5 3 7 + j 
+ 	 l = j 
+ @ 	 e = z + 2 5 $ j ? 2 0 4 ; z ? 7 4 1 ; l ? 2 0 4 | 
+ print( l ) 
+#STEP
+ # code
+ j = 2 0 4 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ 	 z = 5 3 7 + j 
+ 	 l = j 
+ 	 e = z + 2 5 
+ @ print( l ) $ j ? 2 0 4 ; z ? 7 4 1 ; l ? 2 0 4 ; e ? 9 5 6 | 
+#STEP
+ # code
+ j = 2 0 4 
+ while j > 2 0 7 : 
+ 	 j = j + 1 6 
+ if j != 2 0 3 : 
+ 	 z = 5 3 7 + j 
+ 	 l = j 
+ 	 e = z + 2 5 
+ print( l ) 
+ @ ^ $ j ? 2 0 4 ; z ? 7 4 1 ; l ? 2 0 4 ; e ? 9 5 6 | #  2 0 4@"
+32,"# code
+a = 652
+h = 10
+e = 629
+while a > e:
+	t = 974
+	l = e + h
+	n = 697
+	e = l
+print(a)
+#STEP
+","# code
+ @ a = 6 5 2 $ | 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ @ h = 1 0 $ a ? 6 5 2 | 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ @ e = 6 2 9 $ a ? 6 5 2 ; h ? 1 0 | 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ @ while a > e : $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 2 9 | 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ @ 	 t = 9 7 4 $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 2 9 | 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ @ 	 l = e + h $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 2 9 ; t ? 9 7 4 | 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ @ 	 n = 6 9 7 $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 2 9 ; t ? 9 7 4 ; l ? 6 3 9 | 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ @ 	 e = l $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 2 9 ; t ? 9 7 4 ; l ? 6 3 9 ; n ? 6 9 7 | 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ @ while a > e : $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 3 9 ; t ? 9 7 4 ; l ? 6 3 9 ; n ? 6 9 7 | 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ @ 	 t = 9 7 4 $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 3 9 ; t ? 9 7 4 ; l ? 6 3 9 ; n ? 6 9 7 | 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ @ 	 l = e + h $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 3 9 ; t ? 9 7 4 ; l ? 6 3 9 ; n ? 6 9 7 | 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ @ 	 n = 6 9 7 $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 3 9 ; t ? 9 7 4 ; l ? 6 4 9 ; n ? 6 9 7 | 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ @ 	 e = l $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 3 9 ; t ? 9 7 4 ; l ? 6 4 9 ; n ? 6 9 7 | 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ @ while a > e : $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 4 9 ; t ? 9 7 4 ; l ? 6 4 9 ; n ? 6 9 7 | 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ @ 	 t = 9 7 4 $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 4 9 ; t ? 9 7 4 ; l ? 6 4 9 ; n ? 6 9 7 | 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ @ 	 l = e + h $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 4 9 ; t ? 9 7 4 ; l ? 6 4 9 ; n ? 6 9 7 | 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ @ 	 n = 6 9 7 $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 4 9 ; t ? 9 7 4 ; l ? 6 5 9 ; n ? 6 9 7 | 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ @ 	 e = l $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 4 9 ; t ? 9 7 4 ; l ? 6 5 9 ; n ? 6 9 7 | 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ @ while a > e : $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 5 9 ; t ? 9 7 4 ; l ? 6 5 9 ; n ? 6 9 7 | 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ @ print( a ) $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 5 9 ; t ? 9 7 4 ; l ? 6 5 9 ; n ? 6 9 7 | 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+ @ ^ $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 5 9 ; t ? 9 7 4 ; l ? 6 5 9 ; n ? 6 9 7 | #  6 5 2","# code
+ @ a = 6 5 2 $ | 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ @ h = 1 0 $ a ? 6 5 2 | 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ @ e = 6 2 9 $ a ? 6 5 2 ; h ? 1 0 | 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ @ while a > e : $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 2 9 | 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ @ 	 t = 9 7 4 $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 2 9 | 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ @ 	 l = e + h $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 2 9 ; t ? 9 7 4 | 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ @ 	 n = 6 9 7 $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 2 9 ; t ? 9 7 4 ; l ? 6 3 9 | 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ @ 	 e = l $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 2 9 ; t ? 9 7 4 ; l ? 6 3 9 ; n ? 6 9 7 | 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ @ while a > e : $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 3 9 ; t ? 9 7 4 ; l ? 6 3 9 ; n ? 6 9 7 | 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ @ print( a ) $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 3 9 ; t ? 9 7 4 ; l ? 6 3 9 ; n ? 6 9 7 | 
+#STEP
+ # code
+ a = 6 5 2 
+ h = 1 0 
+ e = 6 2 9 
+ while a > e : 
+ 	 t = 9 7 4 
+ 	 l = e + h 
+ 	 n = 6 9 7 
+ 	 e = l 
+ print( a ) 
+ @ ^ $ a ? 6 5 2 ; h ? 1 0 ; e ? 6 3 9 ; t ? 9 7 4 ; l ? 6 3 9 ; n ? 6 9 7 | #  6 5 2@"
+33,"# code
+if 330 > 432:
+	a = 604
+	r = 886 + 868
+	v = 285 + r
+j = 313
+b = 309
+d = 163 + j
+while b > j:
+	r = b + 2
+	k = d
+	b = r
+print(j)
+#STEP
+","# code
+ @ if 3 3 0 > 4 3 2 : $ | 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ j = 3 1 3 
+ b = 3 0 9 
+ d = 1 6 3 + j 
+ while b > j : 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ print( j ) 
+#STEP
+ # code
+ if 3 3 0 > 4 3 2 : 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ @ j = 3 1 3 $ | 
+ b = 3 0 9 
+ d = 1 6 3 + j 
+ while b > j : 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ print( j ) 
+#STEP
+ # code
+ if 3 3 0 > 4 3 2 : 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ j = 3 1 3 
+ @ b = 3 0 9 $ j ? 3 1 3 | 
+ d = 1 6 3 + j 
+ while b > j : 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ print( j ) 
+#STEP
+ # code
+ if 3 3 0 > 4 3 2 : 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ j = 3 1 3 
+ b = 3 0 9 
+ @ d = 1 6 3 + j $ j ? 3 1 3 ; b ? 3 0 9 | 
+ while b > j : 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ print( j ) 
+#STEP
+ # code
+ if 3 3 0 > 4 3 2 : 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ j = 3 1 3 
+ b = 3 0 9 
+ d = 1 6 3 + j 
+ @ while b > j : $ j ? 3 1 3 ; b ? 3 0 9 ; d ? 4 7 6 | 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ print( j ) 
+#STEP
+ # code
+ if 3 3 0 > 4 3 2 : 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ j = 3 1 3 
+ b = 3 0 9 
+ d = 1 6 3 + j 
+ while b > j : 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ @ print( j ) $ j ? 3 1 3 ; b ? 3 0 9 ; d ? 4 7 6 | 
+#STEP
+ # code
+ if 3 3 0 > 4 3 2 : 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ j = 3 1 3 
+ b = 3 0 9 
+ d = 1 6 3 + j 
+ while b > j : 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ print( j ) 
+ @ ^ $ j ? 3 1 3 ; b ? 3 0 9 ; d ? 4 7 6 | #  3 1 3","# code
+ @ if 3 3 0 > 4 3 2 : $ | 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ j = 3 1 3 
+ b = 3 0 9 
+ d = 1 6 3 + j 
+ while b > j : 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ print( j ) 
+#STEP
+ # code
+ if 3 3 0 > 4 3 2 : 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ @ j = 3 1 3 $ | 
+ b = 3 0 9 
+ d = 1 6 3 + j 
+ while b > j : 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ print( j ) 
+#STEP
+ # code
+ if 3 3 0 > 4 3 2 : 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ j = 3 1 3 
+ @ b = 3 0 9 $ j ? 3 1 3 | 
+ d = 1 6 3 + j 
+ while b > j : 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ print( j ) 
+#STEP
+ # code
+ if 3 3 0 > 4 3 2 : 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ j = 3 1 3 
+ b = 3 0 9 
+ @ d = 1 6 3 + j $ j ? 3 1 3 ; b ? 3 0 9 | 
+ while b > j : 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ print( j ) 
+#STEP
+ # code
+ if 3 3 0 > 4 3 2 : 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ j = 3 1 3 
+ b = 3 0 9 
+ d = 1 6 3 + j 
+ @ while b > j : $ j ? 3 1 3 ; b ? 3 0 9 ; d ? 4 7 2 | 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ print( j ) 
+#STEP
+ # code
+ if 3 3 0 > 4 3 2 : 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ j = 3 1 3 
+ b = 3 0 9 
+ d = 1 6 3 + j 
+ while b > j : 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ @ print( j ) $ j ? 3 1 3 ; b ? 3 0 9 ; d ? 4 7 2 | 
+#STEP
+ # code
+ if 3 3 0 > 4 3 2 : 
+ 	 a = 6 0 4 
+ 	 r = 8 8 6 + 8 6 8 
+ 	 v = 2 8 5 + r 
+ j = 3 1 3 
+ b = 3 0 9 
+ d = 1 6 3 + j 
+ while b > j : 
+ 	 r = b + 2 
+ 	 k = d 
+ 	 b = r 
+ print( j ) 
+ @ ^ $ j ? 3 1 3 ; b ? 3 0 9 ; d ? 4 7 2 | #  3 1 3@"
+34,"# code
+m = 39
+w = 96
+q = 390
+a = q
+j = 1 + 287
+n = 602
+k = 794 + 159
+print(q)
+#STEP
+","# code
+ @ m = 3 9 $ | 
+ w = 9 6 
+ q = 3 9 0 
+ a = q 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ @ w = 9 6 $ m ? 3 9 | 
+ q = 3 9 0 
+ a = q 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ @ q = 3 9 0 $ m ? 3 9 ; w ? 9 6 | 
+ a = q 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ q = 3 9 0 
+ @ a = q $ m ? 3 9 ; w ? 9 6 ; q ? 3 9 0 | 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ q = 3 9 0 
+ a = q 
+ @ j = 1 + 2 8 7 $ m ? 3 9 ; w ? 9 6 ; q ? 3 9 0 ; a ? 3 9 0 | 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ q = 3 9 0 
+ a = q 
+ j = 1 + 2 8 7 
+ @ n = 6 0 2 $ m ? 3 9 ; w ? 9 6 ; q ? 3 9 0 ; a ? 3 9 0 ; j ? 2 8 8 | 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ q = 3 9 0 
+ a = q 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ @ k = 7 9 4 + 1 5 9 $ m ? 3 9 ; w ? 9 6 ; q ? 3 9 0 ; a ? 3 9 0 ; j ? 2 8 8 ; n ? 6 0 2 | 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ q = 3 9 0 
+ a = q 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ @ print( q ) $ m ? 3 9 ; w ? 9 6 ; q ? 3 9 0 ; a ? 3 9 0 ; j ? 2 8 8 ; n ? 6 0 2 ; k ? 9 5 3 | 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ q = 3 9 0 
+ a = q 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+ @ ^ $ m ? 3 9 ; w ? 9 6 ; q ? 3 9 0 ; a ? 3 9 0 ; j ? 2 8 8 ; n ? 6 0 2 ; k ? 9 5 3 | #  3 9 0","# code
+ @ m = 3 9 $ | 
+ w = 9 6 
+ q = 3 9 0 
+ a = q 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ @ w = 9 6 $ m ? 3 9 | 
+ q = 3 9 0 
+ a = q 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ @ q = 3 9 0 $ m ? 3 9 ; w ? 9 6 | 
+ a = q 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ q = 3 9 0 
+ @ a = q $ m ? 3 9 ; w ? 9 6 ; q ? 3 9 0 | 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ q = 3 9 0 
+ a = q 
+ @ j = 1 + 2 8 7 $ m ? 3 9 ; w ? 9 6 ; q ? 3 9 0 ; a ? 3 9 0 | 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ q = 3 9 0 
+ a = q 
+ j = 1 + 2 8 7 
+ @ n = 6 0 2 $ m ? 3 9 ; w ? 9 6 ; q ? 3 9 0 ; a ? 3 9 0 ; j ? 2 8 7 | 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ q = 3 9 0 
+ a = q 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ @ k = 7 9 4 + 1 5 9 $ m ? 3 9 ; w ? 9 6 ; q ? 3 9 0 ; a ? 3 9 0 ; j ? 2 8 7 ; n ? 6 0 2 | 
+ print( q ) 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ q = 3 9 0 
+ a = q 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ @ print( q ) $ m ? 3 9 ; w ? 9 6 ; q ? 3 9 0 ; a ? 3 9 0 ; j ? 2 8 7 ; n ? 6 0 2 ; k ? 9 5 3 | 
+#STEP
+ # code
+ m = 3 9 
+ w = 9 6 
+ q = 3 9 0 
+ a = q 
+ j = 1 + 2 8 7 
+ n = 6 0 2 
+ k = 7 9 4 + 1 5 9 
+ print( q ) 
+ @ ^ $ m ? 3 9 ; w ? 9 6 ; q ? 3 9 0 ; a ? 3 9 0 ; j ? 2 8 7 ; n ? 6 0 2 ; k ? 9 5 3 | #  3 9 0@"
+35,"# code
+j = 538
+v = 663
+while j < 541:
+	v = j + 2
+	i = v
+	j = v
+	n = j
+print(20)
+#STEP
+","# code
+ @ j = 5 3 8 $ | 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ @ v = 6 6 3 $ j ? 5 3 8 | 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ @ while j < 5 4 1 : $ j ? 5 3 8 ; v ? 6 6 3 | 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ @ 	 v = j + 2 $ j ? 5 3 8 ; v ? 6 6 3 | 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ @ 	 i = v $ j ? 5 3 8 ; v ? 5 4 0 | 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ @ 	 j = v $ j ? 5 3 8 ; v ? 5 4 0 ; i ? 5 4 0 | 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ @ 	 n = j $ j ? 5 4 0 ; v ? 5 4 0 ; i ? 5 4 0 | 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ @ while j < 5 4 1 : $ j ? 5 4 0 ; v ? 5 4 0 ; i ? 5 4 0 ; n ? 5 4 0 | 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ @ 	 v = j + 2 $ j ? 5 4 0 ; v ? 5 4 0 ; i ? 5 4 0 ; n ? 5 4 0 | 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ @ 	 i = v $ j ? 5 4 0 ; v ? 5 4 2 ; i ? 5 4 0 ; n ? 5 4 0 | 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ @ 	 j = v $ j ? 5 4 0 ; v ? 5 4 2 ; i ? 5 4 2 ; n ? 5 4 0 | 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ @ 	 n = j $ j ? 5 4 2 ; v ? 5 4 2 ; i ? 5 4 2 ; n ? 5 4 0 | 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ @ while j < 5 4 1 : $ j ? 5 4 2 ; v ? 5 4 2 ; i ? 5 4 2 ; n ? 5 4 2 | 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ @ print( 2 0 ) $ j ? 5 4 2 ; v ? 5 4 2 ; i ? 5 4 2 ; n ? 5 4 2 | 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+ @ ^ $ j ? 5 4 2 ; v ? 5 4 2 ; i ? 5 4 2 ; n ? 5 4 2 | #  2 0","# code
+ @ j = 5 3 8 $ | 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ @ v = 6 6 3 $ j ? 5 3 8 | 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ @ while j < 5 4 1 : $ j ? 5 3 8 ; v ? 6 6 3 | 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ @ 	 v = j + 2 $ j ? 5 3 8 ; v ? 6 6 3 | 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ @ 	 i = v $ j ? 5 3 8 ; v ? 6 6 5 | 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ @ 	 j = v $ j ? 5 3 8 ; v ? 6 6 5 ; i ? 6 6 5 | 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ @ 	 n = j $ j ? 6 6 5 ; v ? 6 6 5 ; i ? 6 6 5 | 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ @ while j < 5 4 1 : $ j ? 6 6 5 ; v ? 6 6 5 ; i ? 6 6 5 ; n ? 6 6 5 | 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ @ print( 2 0 ) $ j ? 6 6 5 ; v ? 6 6 5 ; i ? 6 6 5 ; n ? 6 6 5 | 
+#STEP
+ # code
+ j = 5 3 8 
+ v = 6 6 3 
+ while j < 5 4 1 : 
+ 	 v = j + 2 
+ 	 i = v 
+ 	 j = v 
+ 	 n = j 
+ print( 2 0 ) 
+ @ ^ $ j ? 6 6 5 ; v ? 6 6 5 ; i ? 6 6 5 ; n ? 6 6 5 | #  2 0@"
